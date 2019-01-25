@@ -1,8 +1,5 @@
 function getDictionary() {
-    return http.get('/dictionary.json')
-        .then(function (result) {
-            return result.data;
-        });
+    return Promise.resolve(window.odysseusDictionary)
 }
 
 var objectProvider = {

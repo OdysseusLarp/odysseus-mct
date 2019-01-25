@@ -1,4 +1,4 @@
-{
+window.odysseusDictionary = {
     "name": "Example Spacecraft",
     "key": "sc",
     "measurements": [
