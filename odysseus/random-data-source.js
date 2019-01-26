@@ -1,28 +1,34 @@
 
 function RandomTelemetryPlugin(options) {
-    options = options || {}
-    const delay = options.delay || 500
-    const brownianStep = options.brownianStep || 0.1
-
+    const METHOD = "random_brownian"
+    
     return function (openmct) {
         const listener = {}
         const values = {}
 
         setInterval(function () {
             Object.keys(listener).forEach(function (key) {
-                values[key] = (values[key] || 0) + (2*Math.random() - 1) * brownianStep
-                const point = {
-                    timestamp: Date.now(),
-                    value: values[key],
-                    id: key
+                const m = findDictionaryMeasurement(key)
+                if (m && m.source && m.source.method === METHOD) {
+                    if (!(key in values)) {
+                        values[key] = m.source.initialValue || 0
+                    }
+                    values[key] = values[key] + (2*Math.random() - 1) * (m.source.brownianStep || 0.1)
+                    const point = {
+                        timestamp: Date.now(),
+                        value: values[key],
+                        id: key
+                    }
+                    listener[key](point)
                 }
-                listener[key](point)
              });
-        }, delay)
+        }, 1000)
 
         var provider = {
             supportsSubscribe: function (domainObject) {
-                return domainObject.type === 'odysseus.telemetry' // FIXME: IDs as argument?
+                const m = findDictionaryMeasurement(domainObject.identifier.key)
+                return ((domainObject.type === 'odysseus.telemetry') &&
+                    m && m.source && m.source.method == METHOD)
             },
             subscribe: function (domainObject, callback) {
                 listener[domainObject.identifier.key] = callback;
@@ -31,7 +37,7 @@ function RandomTelemetryPlugin(options) {
                 };
             },
             supportsRequest: function (domainObject) {
-                return domainObject.type === 'odysseus.telemetry';
+                return this.supportsSubscribe(domainObject);
             },
             request: function (domainObject, options) {
                 // No historical data supported

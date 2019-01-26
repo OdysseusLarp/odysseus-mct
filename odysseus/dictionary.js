@@ -1,3 +1,8 @@
+function findDictionaryMeasurement(key) {
+    return window.odysseusDictionary.measurements.find(m => m.key === key)
+}
+
+
 window.odysseusDictionary = {
     "name": "Example Spacecraft",
     "key": "sc",
@@ -26,7 +31,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.1,
+                "initialValue": 0
+            }
         },
         {
             "name": "Thrusters",
@@ -59,7 +69,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.1,
+                "initialValue": 0
+            }
         },
         {
             "name": "Received",
@@ -83,7 +98,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.1,
+                "initialValue": 0
+            }
         },
         {
             "name": "Sent",
@@ -107,7 +127,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.1,
+                "initialValue": 0
+            }
         },
         {
             "name": "Generator Temperature",
@@ -131,7 +156,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.1,
+                "initialValue": 60
+            }
         },
         {
             "name": "Generator Current",
@@ -155,7 +185,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.01,
+                "initialValue": 0.5
+            }
         },
         {
             "name": "Generator Voltage",
@@ -179,7 +214,12 @@ window.odysseusDictionary = {
                         "domain": 1
                     }
                 }
-            ]
+            ],
+            "source": {
+                "method": "random_brownian",
+                "brownianMultiplier": 0.01,
+                "initialValue": 12
+            }
         }
     ]
 }
