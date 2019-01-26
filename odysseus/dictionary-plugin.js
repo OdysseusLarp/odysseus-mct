@@ -8,7 +8,7 @@ var objectProvider = {
             if (identifier.key === 'spacecraft') {
                 return {
                     identifier: identifier,
-                    name: dictionary.name,
+                    name: "ESS Odysseus",
                     type: 'folder',
                     location: 'ROOT'
                 };
@@ -30,6 +30,7 @@ var objectProvider = {
     }
 };
 
+// TODO: Add additional folder structure
 var compositionProvider = {
     appliesTo: function (domainObject) {
         return domainObject.identifier.namespace === 'odysseus.taxonomy' &&

@@ -22,13 +22,20 @@ function RandomTelemetryPlugin(options) {
 
         var provider = {
             supportsSubscribe: function (domainObject) {
-                return domainObject.type === 'odysseus.telemetry' // FIXME: IDs as argument
+                return domainObject.type === 'odysseus.telemetry' // FIXME: IDs as argument?
             },
             subscribe: function (domainObject, callback) {
                 listener[domainObject.identifier.key] = callback;
                 return function unsubscribe() {
                     delete listener[domainObject.identifier.key];
                 };
+            },
+            supportsRequest: function (domainObject) {
+                return domainObject.type === 'odysseus.telemetry';
+            },
+            request: function (domainObject, options) {
+                // No historical data supported
+                return Promise.resolve([])
             }
         };
 
