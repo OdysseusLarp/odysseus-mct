@@ -19,18 +19,38 @@ function BackendTelemetryPlugin(options) {
             })
         }
 
+        function randomize(value, config) {
+            let result
+            if (config.randomRelative) {
+                result = value * (1 + (2 * Math.random() - 1) * config.randomRelative)
+            } else if (config.randomAbsolute) {
+                result = value + (2 * Math.random() - 1) * config.randomAbsolute
+            } else {
+                result = value
+            }
+            if (typeof result === 'number' && isFinite(result)) {
+                // Graphs bork up if they receive NaN value
+                return result
+            }
+        }
+
         function getNextValue(config, previous) {
             const pollFrequency = config.pollFrequency || 10000
             if (!previous || Date.now() > previous.fetched + pollFrequency) {
                 return fetchBackendJson(config.box)
                 .then(function(json) {
-                    const value = json.value && json.value[config.field]
-                    console.log("Fetched " + value + " for box '" + config.box + "'")
+                    const nextValue = json.value && json.value[config.field]
+                    let previousValue = previous && previous.nextValue
+                    if (typeof previousValue === 'undefined') {
+                        // First time startup
+                        previousValue = nextValue
+                    }
+                    console.log("Fetched " + nextValue + " for box '" + config.box + "'")
                     return {
                         fetched: Date.now(),
-                        previousValue: previous && previous.value,
-                        nextValue: value,
-                        value: (previous && previous.value) || value
+                        previousValue,
+                        nextValue,
+                        value: randomize(previousValue, config)
                     }
                 }).catch(error => {
                     console.log("Backend data fetch error", error)
@@ -54,7 +74,7 @@ function BackendTelemetryPlugin(options) {
                     fetched: previous.fetched,
                     previousValue: previous.previousValue,
                     nextValue: previous.nextValue,
-                    value: v
+                    value: randomize(v, config)
                 }
             }
         }

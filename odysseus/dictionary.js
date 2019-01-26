@@ -39,7 +39,9 @@ window.odysseusDictionary = {
                 "method": "backend",
                 "box": "simple",  // FIXME: New API?
                 "field": "val1",
-                "pollFrequency": 10000
+                "pollFrequency": 10000,
+                // "randomRelative": 0.01,
+                "randomAbsolute": 0.1,
             }
         },
         {
