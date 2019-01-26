@@ -6,7 +6,42 @@ function findDictionaryMeasurement(key) {
 window.odysseusDictionary = {
     "name": "Example Spacecraft",
     "key": "sc",
+    "backend": {
+        "url" : "https://odysseus.nicou.me",
+        "username": "",
+        "password": ""
+    },
     "measurements": [
+        {
+            "name": "Backend value",
+            "key": "prop.backend.foo",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Value",
+                    "units": "kilograms",
+                    "format": "float",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "box": "simple",  // FIXME: New API?
+                "field": "val1",
+                "pollFrequency": 10000
+            }
+        },
         {
             "name": "Fuel",
             "key": "prop.fuel",

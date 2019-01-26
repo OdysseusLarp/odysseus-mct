@@ -7,8 +7,8 @@
     <script src="odysseus/dictionary.js"></script>
     <script src="odysseus/dictionary-plugin.js"></script>
     <script src="historical-telemetry-plugin.js"></script>
-    <!-- <script src="realtime-telemetry-plugin.js"></script> -->
     <script src="odysseus/random-data-source.js"></script>
+    <script src="odysseus/backend-data-source.js"></script>
 </head>
 <body>
     <script>
@@ -29,6 +29,7 @@
         // openmct.install(HistoricalTelemetryPlugin());
         // openmct.install(RealtimeTelemetryPlugin());
         openmct.install(RandomTelemetryPlugin())
+        openmct.install(BackendTelemetryPlugin())
 
         openmct.start();
     </script>

@@ -1,20 +1,46 @@
 
 // FIXME:  backend-data-source.js and random-data-source.js are largely the same
 
-function RandomTelemetryPlugin(options) {
-    const METHOD = "random_brownian"
+function BackendTelemetryPlugin(options) {
+    const METHOD = "backend"
     
     return function (openmct) {
         const listener = {}
         const previous = {}
 
-        function getNextValue(config, previous) {
-            let value = config.initialValue || 0
-            if (previous) {
-                value = previous.value
+        function fetchBackendJson(box) {
+            let headers = new Headers()
+            if (window.odysseusDictionary.backend.password) {
+                headers.append('Authorization', 'Basic ' + btoa(window.odysseusDictionary.backend.username + ':' + window.odysseusDictionary.backend.password))
             }
-            value += (2*Math.random() - 1) * (config.brownianStep || 0.1)
-            return { value }
+            return fetch(`${window.odysseusDictionary.backend.url}/engineering/box/${box}`, {headers: headers})
+            .then(function(response) {
+                return response.json();
+            })
+    }
+
+        function getNextValue(config, previous) {
+            const pollFrequency = config.pollFrequency || 10000
+            if (!previous || Date.now() > previous.timestamp + pollFrequency) {
+                return fetchBackendJson(config.box)
+                .then(function(json) {
+                    const value = json.value && json.value[config.field]
+                    console.log("Returning " + value + " for box '" + config.box + "'")
+                    return {
+                        timestamp: Date.now(),
+                        value
+                    }
+                }).catch(error => {
+                    console.log("Backend data fetch error", error)
+                    return {
+                        timestamp: Date.now()
+                    }
+                })
+            } else {
+                return {
+                    timestamp: previous.timestamp
+                }
+            }
         }
 
         setInterval(function () {
