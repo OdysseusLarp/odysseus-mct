@@ -22,7 +22,7 @@ function RandomTelemetryPlugin(options) {
 
         var provider = {
             supportsSubscribe: function (domainObject) {
-                return domainObject.type === 'example.telemetry' // FIXME: IDs as argument
+                return domainObject.type === 'odysseus.telemetry' // FIXME: IDs as argument
             },
             subscribe: function (domainObject, callback) {
                 listener[domainObject.identifier.key] = callback;

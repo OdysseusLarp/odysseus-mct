@@ -19,11 +19,11 @@ var objectProvider = {
                 return {
                     identifier: identifier,
                     name: measurement.name,
-                    type: 'example.telemetry',
+                    type: 'odysseus.telemetry',
                     telemetry: {
                         values: measurement.values
                     },
-                    location: 'example.taxonomy:spacecraft'
+                    location: 'odysseus.taxonomy:spacecraft'
                 };
             }
         });
@@ -32,7 +32,7 @@ var objectProvider = {
 
 var compositionProvider = {
     appliesTo: function (domainObject) {
-        return domainObject.identifier.namespace === 'example.taxonomy' &&
+        return domainObject.identifier.namespace === 'odysseus.taxonomy' &&
                domainObject.type === 'folder';
     },
     load: function (domainObject) {
@@ -40,7 +40,7 @@ var compositionProvider = {
             .then(function (dictionary) {
                 return dictionary.measurements.map(function (m) {
                     return {
-                        namespace: 'example.taxonomy',
+                        namespace: 'odysseus.taxonomy',
                         key: m.key
                     };
                 });
@@ -51,16 +51,17 @@ var compositionProvider = {
 var DictionaryPlugin = function (openmct) {
     return function install(openmct) {
         openmct.objects.addRoot({
-            namespace: 'example.taxonomy',
+            namespace: 'odysseus.taxonomy',
             key: 'spacecraft'
         });
 
-        openmct.objects.addProvider('example.taxonomy', objectProvider);
+        openmct.objects.addProvider('odysseus.taxonomy', objectProvider);
 
         openmct.composition.addProvider(compositionProvider);
 
-        openmct.types.addType('example.telemetry', {
-            name: 'Example Telemetry Point',
+        // FIXME:  Remove/change this one later on
+        openmct.types.addType('odysseus.telemetry', {
+            name: 'Odysseus Telemetry Point',  // FIXME: Naming
             description: 'Example telemetry point from our happy tutorial.',
             cssClass: 'icon-telemetry'
         });
