@@ -17,28 +17,44 @@ function BackendTelemetryPlugin(options) {
             .then(function(response) {
                 return response.json();
             })
-    }
+        }
 
         function getNextValue(config, previous) {
             const pollFrequency = config.pollFrequency || 10000
-            if (!previous || Date.now() > previous.timestamp + pollFrequency) {
+            if (!previous || Date.now() > previous.fetched + pollFrequency) {
                 return fetchBackendJson(config.box)
                 .then(function(json) {
                     const value = json.value && json.value[config.field]
-                    console.log("Returning " + value + " for box '" + config.box + "'")
+                    console.log("Fetched " + value + " for box '" + config.box + "'")
                     return {
-                        timestamp: Date.now(),
-                        value
+                        fetched: Date.now(),
+                        previousValue: previous && previous.value,
+                        nextValue: value,
+                        value: (previous && previous.value) || value
                     }
                 }).catch(error => {
                     console.log("Backend data fetch error", error)
                     return {
-                        timestamp: Date.now()
+                        fetched: Date.now()
                     }
                 })
             } else {
+                if (typeof previous.previousValue == 'undefined' || typeof previous.nextValue == 'undefined') {
+                    return previous
+                }
+                // Interpolate between data points
+                const t1 = previous.fetched
+                const t2 = t1 + pollFrequency - 1000
+                const t = Math.min(Date.now(), t2)
+                const v1 = previous.previousValue
+                const v2 = previous.nextValue
+                const v = v1 + (t - t1) * (v2 - v1) / (t2 - t1)
+                console.log("Interpolated " + v + " for box '" + config.box + "'")
                 return {
-                    timestamp: previous.timestamp
+                    fetched: previous.fetched,
+                    previousValue: previous.previousValue,
+                    nextValue: previous.nextValue,
+                    value: v
                 }
             }
         }
