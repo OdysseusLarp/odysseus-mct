@@ -18,9 +18,11 @@
         openmct.install(openmct.plugins.UTCTimeSystem());
         openmct.time.clock('local', {start: -15 * 60 * 1000, end: 0});
         openmct.time.timeSystem('utc');
-       openmct.install(openmct.plugins.Espresso());
+        openmct.install(openmct.plugins.Espresso());
         // openmct.install(openmct.plugins.Snow());
         openmct.install(openmct.plugins.ImportExport())
+        openmct.install(openmct.plugins.SummaryWidget());
+        openmct.install(openmct.plugins.Generator());
 
         openmct.install(openmct.plugins.StaticRootPlugin('mission', 'tmp/odysseus.json'));
 
