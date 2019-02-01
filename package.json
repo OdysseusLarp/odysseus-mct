@@ -20,6 +20,6 @@
     "express": "^4.16.4",
     "express-ws": "^4.0.0",
     "openmct": "OdysseusLarp/openmct",
-    "ws": "^6.1.2"
+    "ws": "^6.1.3"
   }
 }
