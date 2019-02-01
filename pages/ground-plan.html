@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ground plan</title>
+
+        <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #333333;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            position: relative;
+        }
+        #circle {
+            position: absolute;
+            width: 20%;
+            height: 20%;
+            border: 3px solid red;
+            border-radius: 100%;
+            display: none;
+        }
+        </style>
+        <script>
+        var totalImages = 20
+        var flashingImages = 12  // How many to flash before settling
+        var flashDelay = 75  // How long to show each flashing image (ms)
+        
+        /* Return urls of plans */
+        function urls() {
+            return Array(totalImages).fill().map((x,i) => `/static/plans/plan${(i+1).pad(2)}.png`)
+        }
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+        function randomSet(last) {
+            var index = last - 1
+            var array = urls()
+            var lastUrl = array.splice(index, 1)[0]
+            shuffleArray(array)
+            array.splice(flashingImages)
+            array.push(lastUrl)
+            return array
+        }
+
+        Number.prototype.pad = function(size) {
+            var s = String(this);
+            while (s.length < size) {s = "0" + s;}
+            return s;
+        }
+        function getUrl(index) {
+            return 
+        }
+        var current = null
+        localStorage.removeItem("odysseus.plan");
+        function update() {
+            var newValue = localStorage.getItem("odysseus.plan")
+            if (newValue !== current) {
+                current = newValue
+                if (newValue) {
+                    var set = randomSet(newValue)
+                    updateTo(set)
+                } else {
+                    document.getElementById('body').style.backgroundImage = ""
+                    document.getElementById('circle').style.display = 'none'
+                }
+            }
+        }
+        function updateTo(array) {
+            var url = array.splice(0,1)[0]
+            document.getElementById('body').style.backgroundImage = `url(${url})`
+            if (array.length > 0) {
+                document.getElementById('circle').style.display = 'none'
+                setTimeout(() => updateTo(array), flashDelay)
+            } else {
+                var top = Math.floor(Math.random() * 60) + 10
+                var left = Math.floor(Math.random() * 60) + 10
+                document.getElementById('circle').style.display = 'block'
+                document.getElementById('circle').style.top = top + '%'
+                document.getElementById('circle').style.left = left + '%'
+            }
+        }
+        setInterval(update, 500)
+
+        // Preload plan images
+        var images = new Array()
+        function preload(array) {
+            for (i = 0; i < array.length; i++) {
+                images[i] = new Image()
+                images[i].src = array[i]
+                console.log("preloading " + array[i])
+            }
+        }
+        setTimeout(() => preload(urls()), 1)
+        </script>
+    </head>
+    <body id="body">
+        <div id="circle"></div>
+    </body>
+</html>

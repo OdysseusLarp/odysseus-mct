@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fault chooser</title>
+
+        <style>
+            body {
+                color: #ddd;
+            }
+        </style>
+        <script>
+            function choose(n) {
+                localStorage.setItem("odysseus.plan", n)
+            }
+        </script>
+    </head>
+    <body id="body">
+        <p>Here be list of faulty things.</p>
+        <select onchange="choose(this.value)">
+            <option value="">Choose:</option>
+            <option value="2">Kernel panic</option>
+            <option value="7">Segmentation fault (core dumped)</option>
+            <option value="13">lp0 on fire</option>
+            <option value="18">Boombox has run out of batteries</option>
+            <option value="15">I'm sorry Dave, I'm afraid I can't let you do that.</option>
+        </select>
+    </body>
+</html>
