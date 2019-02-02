@@ -45,6 +45,10 @@
         }
         function randomSet(last) {
             var array = urls()
+            var index = array.indexOf(last)
+            if (index >= 0) {
+                array.splice(index, 1)
+            }
             shuffleArray(array)
             array.splice(flashingImages)
             array.push(last)
@@ -93,7 +97,8 @@
                 document.getElementById('circle').style.left = left + '%'
             }
         }
-        setInterval(update, 500)
+        window.addEventListener('storage', update)
+        setTimeout(update, 500) // Let main frame setup first
 
         // Preload plan images
         var images = {}

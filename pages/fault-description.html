@@ -31,7 +31,8 @@
             document.getElementById("name").innerHTML = name
             document.getElementById("description").innerHTML = description
         }
-        setInterval(update, 500)
+        window.addEventListener('storage', update)
+        setTimeout(update, 500) // Let main frame setup first
         </script>
     </head>
     <body id="body">
