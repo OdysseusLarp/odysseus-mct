@@ -28,13 +28,14 @@
         }
         </style>
         <script>
+        var key = "odysseus.fault.map"
         var totalImages = 20
         var flashingImages = 12  // How many to flash before settling
         var flashDelay = 75  // How long to show each flashing image (ms)
         
         /* Return urls of plans */
         function urls() {
-            return Array(totalImages).fill().map((x,i) => `/static/plans/plan${(i+1).pad(2)}.png`)
+            return Array(totalImages).fill().map((x,i) => `../static/plans/plan${(i+1).pad(2)}.png`)
         }
         function shuffleArray(array) {
             for (let i = array.length - 1; i > 0; i--) {
@@ -43,12 +44,10 @@
             }
         }
         function randomSet(last) {
-            var index = last - 1
             var array = urls()
-            var lastUrl = array.splice(index, 1)[0]
             shuffleArray(array)
             array.splice(flashingImages)
-            array.push(lastUrl)
+            array.push(last)
             return array
         }
 
@@ -61,21 +60,27 @@
             return 
         }
         var current = null
-        localStorage.removeItem("odysseus.plan");
+        localStorage.removeItem(key);
+
         function update() {
-            var newValue = localStorage.getItem("odysseus.plan")
+            var newValue = localStorage.getItem(key)
             if (newValue !== current) {
                 current = newValue
                 if (newValue) {
-                    var set = randomSet(newValue)
-                    updateTo(set)
+                    preload([ newValue ])
+                    updateTo(randomSet(newValue))
                 } else {
-                    document.getElementById('body').style.backgroundImage = ""
-                    document.getElementById('circle').style.display = 'none'
+                    updateTo(undefined)
                 }
             }
         }
         function updateTo(array) {
+            if (!array) {
+                document.getElementById('body').style.backgroundImage = ""
+                document.getElementById('circle').style.display = 'none'
+                return;
+            }
+
             var url = array.splice(0,1)[0]
             document.getElementById('body').style.backgroundImage = `url(${url})`
             if (array.length > 0) {
@@ -92,12 +97,15 @@
         setInterval(update, 500)
 
         // Preload plan images
-        var images = new Array()
+        var images = {}
         function preload(array) {
-            for (i = 0; i < array.length; i++) {
-                images[i] = new Image()
-                images[i].src = array[i]
-                console.log("preloading " + array[i])
+            for (var i = 0; i < array.length; i++) {
+                var url = array[i]
+                if (!images[url]) {
+                    images[url] = new Image()
+                    images[url].src = url
+                    console.log("preloading " + url)
+                }
             }
         }
         setTimeout(() => preload(urls()), 1)

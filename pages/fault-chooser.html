@@ -9,8 +9,41 @@
             }
         </style>
         <script>
-            function choose(n) {
-                localStorage.setItem("odysseus.plan", n)
+            var faults = {
+                kernel_panic: {
+                    map: "../static/plans/plan02.png",
+                    name: "Kernel panic",
+                    description: "Ship's main computer is in panic mode and is throwing things out of the window.",
+                },
+                segmentation_fault: {
+                    map: "../static/plans/plan07.png",
+                    name: "Segmentation fault",
+                    description: "Navigation system experienced a segmentation fault. Running on magic smoke.",
+                },
+                lp0: {
+                    map: "../static/plans/plan13.png",
+                    name: "lp0 on fire",
+                    description: "Liquid propellant tank 0 (lp0) is on fire.",
+                },
+                boombox: {
+                    map: "../static/plans/plan15.png",
+                    name: "Boombox has run out of batteries",
+                    description: "The ship's cook is mad due to lack of boom.",
+                },
+                sorry: {
+                    map: "../static/plans/plan18.png",
+                    name: "I'm sorry Dave, I'm afraid I can't let you do that.",
+                    description: "I think you know what the problem is just as well as I do.",
+                },
+            }
+
+            function choose(item) {
+                if (faults[item]) {
+                    item = faults[item]
+                    localStorage.setItem("odysseus.fault.name", item.name)
+                    localStorage.setItem("odysseus.fault.description", item.description)
+                    localStorage.setItem("odysseus.fault.map", item.map)
+                }
             }
         </script>
     </head>
@@ -18,11 +51,11 @@
         <p>Here be list of faulty things.</p>
         <select onchange="choose(this.value)">
             <option value="">Choose:</option>
-            <option value="2">Kernel panic</option>
-            <option value="7">Segmentation fault (core dumped)</option>
-            <option value="13">lp0 on fire</option>
-            <option value="18">Boombox has run out of batteries</option>
-            <option value="15">I'm sorry Dave, I'm afraid I can't let you do that.</option>
+            <option value="kernel_panic">Kernel panic</option>
+            <option value="segmentation_fault">Segmentation fault (core dumped)</option>
+            <option value="lp0">lp0 on fire</option>
+            <option value="boombox">Boombox has run out of batteries</option>
+            <option value="sorry">I'm sorry Dave, I'm afraid I can't let you do that.</option>
         </select>
     </body>
 </html>
