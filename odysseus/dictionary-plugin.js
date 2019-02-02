@@ -8,7 +8,7 @@ var objectProvider = {
             if (identifier.key === 'spacecraft') {
                 return {
                     identifier: identifier,
-                    name: "ESS Odysseus",
+                    name: "Ship telemetry",
                     type: 'folder',
                     location: 'ROOT'
                 };
