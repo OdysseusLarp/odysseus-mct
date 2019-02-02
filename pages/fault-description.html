@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fault description</title>
+
+        <style>
+        body {
+            background-color: #444;
+            color: #ddd;
+            font-family: Arial, sans-serif;
+        }
+        </style>
+        <script>
+        var keyName = "odysseus.fault.name"
+        var keyDescription = "odysseus.fault.description"
+        
+        var current = null
+
+        function update() {
+            var newValue = localStorage.getItem(keyName)
+            if (newValue !== current) {
+                current = newValue
+                if (newValue) {
+                    updateTo(localStorage.getItem(keyName), localStorage.getItem(keyDescription))
+                } else {
+                    updateTo("", "")
+                }
+            }
+        }
+        function updateTo(name, description) {
+            document.getElementById("name").innerHTML = name
+            document.getElementById("description").innerHTML = description
+        }
+        setInterval(update, 500)
+        </script>
+    </head>
+    <body id="body">
+        <h2 id="name"></h2>
+        <p id="description"></p>
+    </body>
+</html>

@@ -5,7 +5,9 @@
 
         <style>
             body {
+                background-color: #444;
                 color: #ddd;
+                font-family: Arial, sans-serif;
             }
         </style>
         <script>
@@ -13,12 +15,12 @@
                 kernel_panic: {
                     map: "../static/plans/plan02.png",
                     name: "Kernel panic",
-                    description: "Ship's main computer is in panic mode and is throwing things out of the window.",
+                    description: "Ship's main computer is panicing and is throwing things out of the window.",
                 },
                 segmentation_fault: {
                     map: "../static/plans/plan07.png",
-                    name: "Segmentation fault",
-                    description: "Navigation system experienced a segmentation fault. Running on magic smoke.",
+                    name: "Segmentation fault (core dumped)",
+                    description: "Quantum segmentation failed, crystal core dumped.",
                 },
                 lp0: {
                     map: "../static/plans/plan13.png",
@@ -43,13 +45,18 @@
                     localStorage.setItem("odysseus.fault.name", item.name)
                     localStorage.setItem("odysseus.fault.description", item.description)
                     localStorage.setItem("odysseus.fault.map", item.map)
+                } else {
+                    localStorage.removeItem("odysseus.fault.name")
+                    localStorage.removeItem("odysseus.fault.description")
+                    localStorage.removeItem("odysseus.fault.map")
                 }
             }
+            choose("none")
         </script>
     </head>
     <body id="body">
         <p>Here be list of faulty things.</p>
-        <select onchange="choose(this.value)">
+        <select onchange="choose(this.value)" multiple style="height: 10em">
             <option value="">Choose:</option>
             <option value="kernel_panic">Kernel panic</option>
             <option value="segmentation_fault">Segmentation fault (core dumped)</option>

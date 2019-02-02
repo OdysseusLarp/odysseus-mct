@@ -31,7 +31,7 @@
         var key = "odysseus.fault.map"
         var totalImages = 20
         var flashingImages = 12  // How many to flash before settling
-        var flashDelay = 75  // How long to show each flashing image (ms)
+        var flashDelay = 60  // How long to show each flashing image (ms)
         
         /* Return urls of plans */
         function urls() {
@@ -60,7 +60,6 @@
             return 
         }
         var current = null
-        localStorage.removeItem(key);
 
         function update() {
             var newValue = localStorage.getItem(key)
