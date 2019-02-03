@@ -13,6 +13,30 @@
 </head>
 <body>
     <script>
+        // Shift all time output by this amount
+        
+        // Open https://momentjs.com/docs/ JS console and run:
+        // moment("0542-155", "YYYY-DDDD").valueOf()
+        var EPOCH_TO_GAME_START = -45050002789000
+
+        // Must be in *reverse* chronological order
+        var START_DATES = [
+            "2019-07-09", // 2nd international
+            "2019-07-04", // 1st international
+            "2019-06-27", // Local run
+            "2019-02-04",
+            "2019-01-01",
+        ] 
+
+        for (let date of START_DATES) {
+            var ms = new Date(date).setHours(0)
+            if (ms < Date.now()) {
+                console.log("Using epoch date " + date)
+                window.TIME_SHIFT = EPOCH_TO_GAME_START - ms
+                break
+            }
+        }
+
         openmct.setAssetPath('node_modules/openmct/dist');
         openmct.install(openmct.plugins.LocalStorage());
         openmct.install(openmct.plugins.MyItems());
