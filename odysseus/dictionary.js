@@ -45,6 +45,59 @@ window.odysseusDictionary = {
             }
         },
         {
+            "name": "Jump drive state",
+            "key": "prop.jumpdrive.state",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "State",
+                    "format": "enum",
+                    "enumerations": [
+                        {
+                            "value": 0,
+                            "string": "Ready",
+                        },
+                        {
+                            "value": 1,
+                            "string": "Initializing jump",
+                        },
+                        {
+                            "value": 2,
+                            "string": "Jumping",
+                        },
+                        {
+                            "value": 3,
+                            "string": "Cooldown",
+                        },
+                        {
+                            "value": 4,
+                            "string": "Fault",
+                        },
+                    ],
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "box": "jumpdrive",  // FIXME: New API?
+                "field": "stateno",
+                "pollFrequency": 3000,
+                // "randomRelative": 0.01,
+                // "randomAbsolute": 1,
+            }
+        },
+        {
             "name": "Fuel",
             "key": "prop.fuel",
             "values": [
