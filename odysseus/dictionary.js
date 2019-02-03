@@ -13,13 +13,13 @@ window.odysseusDictionary = {
     },
     "measurements": [
         {
-            "name": "Backend value",
-            "key": "prop.backend.foo",
+            "name": "Jump drive temperature",
+            "key": "prop.jumpdrive.temperature",
             "values": [
                 {
                     "key": "value",
-                    "name": "Value",
-                    "units": "kilograms",
+                    "name": "Temperature",
+                    "units": "℃",
                     "format": "float",
                     "hints": {
                         "range": 1
@@ -37,11 +37,11 @@ window.odysseusDictionary = {
             ],
             "source": {
                 "method": "backend",
-                "box": "simple",  // FIXME: New API?
-                "field": "val1",
+                "box": "jumpdrive",  // FIXME: New API?
+                "field": "temperature",
                 "pollFrequency": 10000,
                 // "randomRelative": 0.01,
-                "randomAbsolute": 0.1,
+                "randomAbsolute": 1,
             }
         },
         {
