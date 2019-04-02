@@ -19,6 +19,9 @@ jobs:
           name: Install dependencies
           command: npm ci
       - run:
+          name: Replace backend paths in odysseus.json
+          command: sed -i 's/http:\/\/localhost:8082\//\/misc\//g' odysseus.json
+      - run:
           name: Deploy using CodeDeploy
           command: bash scripts/codedeploy.sh
       - save_cache:
