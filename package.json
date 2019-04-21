@@ -12,6 +12,7 @@
     "express": "^4.16.4",
     "express-ws": "^4.0.0",
     "openmct": "git+https://github.com/OdysseusLarp/openmct.git",
+    "socket.io-client": "^2.2.0",
     "ws": "^6.1.3"
   }
 }

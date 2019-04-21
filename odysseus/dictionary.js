@@ -37,11 +37,9 @@ window.odysseusDictionary = {
             ],
             "source": {
                 "method": "backend",
-                "box": "jumpdrive",  // FIXME: New API?
-                "field": "temperature",
-                "pollFrequency": 10000,
-                // "randomRelative": 0.01,
-                "randomAbsolute": 1,
+                "type": "ship",
+                "id": "jumpstate",
+                "field": "jump_drive_temp",
             }
         },
         {
@@ -55,23 +53,39 @@ window.odysseusDictionary = {
                     "enumerations": [
                         {
                             "value": 0,
-                            "string": "Ready",
+                            "string": "Broken",
                         },
                         {
                             "value": 1,
-                            "string": "Initializing jump",
+                            "string": "Cooling down",
                         },
                         {
                             "value": 2,
-                            "string": "Jumping",
+                            "string": "Ready to prep",
                         },
                         {
                             "value": 3,
-                            "string": "Cooldown",
+                            "string": "Calculating",
                         },
                         {
                             "value": 4,
-                            "string": "Fault",
+                            "string": "Preparations",
+                        },
+                        {
+                            "value": 5,
+                            "string": "Prep complete",
+                        },
+                        {
+                            "value": 6,
+                            "string": "Ready to jump",
+                        },
+                        {
+                            "value": 7,
+                            "string": "Jump initialized",
+                        },
+                        {
+                            "value": 8,
+                            "string": "Jumping",
                         },
                     ],
                     "hints": {
@@ -90,11 +104,9 @@ window.odysseusDictionary = {
             ],
             "source": {
                 "method": "backend",
-                "box": "jumpdrive",  // FIXME: New API?
-                "field": "stateno",
-                "pollFrequency": 3000,
-                // "randomRelative": 0.01,
-                // "randomAbsolute": 1,
+                "type": "ship",
+                "id": "jumpstate",
+                "field": "statusno",
             }
         },
         {
