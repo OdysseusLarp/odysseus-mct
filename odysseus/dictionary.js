@@ -19,8 +19,8 @@ window.odysseusDictionary = {
                 {
                     "key": "value",
                     "name": "Temperature",
-                    "units": "℃",
-                    "format": "float",
+                    "units": "K",
+                    "formatString": '%d K',
                     "hints": {
                         "range": 1
                     }
