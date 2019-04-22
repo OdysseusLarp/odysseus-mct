@@ -43,6 +43,36 @@ window.odysseusDictionary = {
             }
         },
         {
+            "name": "Tachyon-baryonic coherence",
+            "key": "prop.jumpdrive.coherence",
+            "values": [
+                {
+                    "key": "value",
+                    "name": "Coherence",
+                    "units": "%",
+                    "formatString": '%d%%',
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "ship",
+                "id": "jumpstate",
+                "field": "coherence",
+            }
+        },
+        {
             "name": "Jump drive state",
             "key": "prop.jumpdrive.state",
             "values": [

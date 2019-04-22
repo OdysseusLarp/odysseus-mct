@@ -253,6 +253,14 @@
                 {
                     "namespace": "",
                     "key": "dfb2881d-9b2b-4487-84ca-21c7143c52ba"
+                },
+                {
+                    "namespace": "",
+                    "key": "ebde222d-3991-429d-8852-a653cd35fbd7"
+                },
+                {
+                    "namespace": "",
+                    "key": "f2aa1dc8-25a3-4571-82df-5eacb7c2a86e"
                 }
             ],
             "configuration": {
@@ -290,15 +298,37 @@
                                 7
                             ],
                             "hasFrame": false
+                        },
+                        "ebde222d-3991-429d-8852-a653cd35fbd7": {
+                            "position": [
+                                8,
+                                9
+                            ],
+                            "dimensions": [
+                                35,
+                                9
+                            ],
+                            "hasFrame": false
+                        },
+                        "f2aa1dc8-25a3-4571-82df-5eacb7c2a86e": {
+                            "position": [
+                                0,
+                                8
+                            ],
+                            "dimensions": [
+                                10,
+                                4
+                            ],
+                            "hasFrame": false
                         }
                     }
                 }
             },
             "name": "Jump drive state",
             "type": "layout",
-            "modified": 1555916091569,
+            "modified": 1555947103659,
             "location": "594e8a26-4644-4732-b533-3d79a60c92d3",
-            "persisted": 1555916091569,
+            "persisted": 1555947103659,
             "layoutGrid": [
                 25,
                 25
@@ -306,289 +336,6 @@
             "identifier": {
                 "namespace": "",
                 "key": "b69cdde2-186b-4867-b6ce-148cac492cf1"
-            }
-        },
-        "d6b5cae6-3bda-4065-9956-4d4b33be47a3": {
-            "composition": [
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.temperature"
-                }
-            ],
-            "configuration": {
-                "ruleOrder": [
-                    "default",
-                    "rule0",
-                    "rule1"
-                ],
-                "ruleConfigById": {
-                    "default": {
-                        "name": "Nominal",
-                        "label": "",
-                        "message": "",
-                        "id": "default",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "rgba(0,0,0,0)",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "Default appearance for the widget",
-                        "conditions": [
-                            {
-                                "object": "",
-                                "key": "",
-                                "operation": "",
-                                "values": []
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "backgroundImage": "/static/arrow1-turquoise.gif"
-                    },
-                    "rule0": {
-                        "name": "High",
-                        "label": "",
-                        "message": "",
-                        "id": "rule0",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "rgba(0,0,0,0)",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive temperature's Temperature  >= 3900  AND when Jump drive temperature's Temperature  <= 5200  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
-                                "operation": "greaterThanOrEq",
-                                "values": [
-                                    3900
-                                ]
-                            },
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
-                                "operation": "lessThanOrEq",
-                                "values": [
-                                    5200
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "all",
-                        "expanded": true,
-                        "backgroundImage": "/static/arrow1-yellow.gif"
-                    },
-                    "rule1": {
-                        "name": "Critical",
-                        "label": "",
-                        "message": "",
-                        "id": "rule1",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "rgba(0,0,0,0)",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive temperature's Temperature  >= 5200  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
-                                "operation": "greaterThanOrEq",
-                                "values": [
-                                    5200
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "all",
-                        "expanded": "true",
-                        "backgroundImage": "/static/arrow1-orange.gif"
-                    }
-                },
-                "testDataConfig": [
-                    {
-                        "object": "",
-                        "key": "",
-                        "value": ""
-                    }
-                ]
-            },
-            "openNewTab": "thisTab",
-            "telemetry": {},
-            "name": "Temperature flow",
-            "type": "summary-widget",
-            "modified": 1555915242429,
-            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
-            "persisted": 1555915242429,
-            "identifier": {
-                "namespace": "",
-                "key": "d6b5cae6-3bda-4065-9956-4d4b33be47a3"
-            }
-        },
-        "613d8ad7-cc95-423a-b62a-bd6c842cfeab": {
-            "composition": [
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.temperature"
-                }
-            ],
-            "configuration": {
-                "ruleOrder": [
-                    "default",
-                    "rule0",
-                    "rule1"
-                ],
-                "ruleConfigById": {
-                    "default": {
-                        "name": "Nominal",
-                        "label": "Temperature:&lt;br&gt;Nominal",
-                        "message": "",
-                        "id": "default",
-                        "icon": " ",
-                        "style": {
-                            "color": "#000000",
-                            "background-color": "#50cfc3",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "Default appearance for the widget",
-                        "conditions": [
-                            {
-                                "object": "",
-                                "key": "",
-                                "operation": "",
-                                "values": []
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    },
-                    "rule0": {
-                        "name": "High",
-                        "label": "Temperature:&lt;br&gt;High",
-                        "message": "",
-                        "id": "rule0",
-                        "icon": " ",
-                        "style": {
-                            "color": "#000000",
-                            "background-color": "#ffce00",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive temperature's Temperature  >= 3900  AND when Jump drive temperature's Temperature  <= 5200  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
-                                "operation": "greaterThanOrEq",
-                                "values": [
-                                    3900
-                                ]
-                            },
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
-                                "operation": "lessThanOrEq",
-                                "values": [
-                                    5200
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "all",
-                        "expanded": "true",
-                        "labelSize": "200%"
-                    },
-                    "rule1": {
-                        "name": "Critical",
-                        "label": "Temperature:&lt;br&gt;Critical",
-                        "message": "",
-                        "id": "rule1",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#ec4705",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive temperature's Temperature  >= 5200  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
-                                "operation": "greaterThanOrEq",
-                                "values": [
-                                    5200
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "all",
-                        "expanded": "true",
-                        "labelSize": "200%"
-                    }
-                },
-                "testDataConfig": [
-                    {
-                        "object": "",
-                        "key": "",
-                        "value": ""
-                    }
-                ]
-            },
-            "openNewTab": "thisTab",
-            "telemetry": {},
-            "name": "Temperature indicator",
-            "type": "summary-widget",
-            "modified": 1555915541996,
-            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
-            "persisted": 1555915541996,
-            "identifier": {
-                "namespace": "",
-                "key": "613d8ad7-cc95-423a-b62a-bd6c842cfeab"
-            }
-        },
-        "dfb2881d-9b2b-4487-84ca-21c7143c52ba": {
-            "composition": [
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.temperature"
-                }
-            ],
-            "configuration": {
-                "series": [
-                    {
-                        "identifier": {
-                            "namespace": "odysseus.taxonomy",
-                            "key": "prop.jumpdrive.temperature"
-                        }
-                    }
-                ],
-                "yAxis": {
-                    "autoscale": false,
-                    "range": {
-                        "min": 0,
-                        "max": 5600
-                    }
-                },
-                "xAxis": {},
-                "legend": {
-                    "position": "hidden",
-                    "expandByDefault": false
-                }
-            },
-            "name": "Temperature Plot",
-            "type": "telemetry.plot.overlay",
-            "modified": 1555916070465,
-            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
-            "persisted": 1555916070465,
-            "identifier": {
-                "namespace": "",
-                "key": "dfb2881d-9b2b-4487-84ca-21c7143c52ba"
             }
         },
         "be4c047e-2bf7-49fa-95bc-0761391cd75b": {
@@ -995,6 +742,533 @@
             "identifier": {
                 "namespace": "",
                 "key": "219edb11-76a1-4274-bfe3-2a8c59384a1e"
+            }
+        },
+        "d6b5cae6-3bda-4065-9956-4d4b33be47a3": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.jumpdrive.temperature"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Nominal",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "/static/arrow1-turquoise.gif"
+                    },
+                    "rule0": {
+                        "name": "High",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Jump drive temperature's Temperature  >= 3900  AND when Jump drive temperature's Temperature  <= 5200  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
+                                "key": "value",
+                                "operation": "greaterThanOrEq",
+                                "values": [
+                                    3900
+                                ]
+                            },
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
+                                "key": "value",
+                                "operation": "lessThanOrEq",
+                                "values": [
+                                    5200
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": true,
+                        "backgroundImage": "/static/arrow1-yellow.gif"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Jump drive temperature's Temperature  >= 5200  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
+                                "key": "value",
+                                "operation": "greaterThanOrEq",
+                                "values": [
+                                    5200
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": "true",
+                        "backgroundImage": "/static/arrow1-orange.gif"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Temperature flow",
+            "type": "summary-widget",
+            "modified": 1555915242429,
+            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
+            "persisted": 1555915242429,
+            "identifier": {
+                "namespace": "",
+                "key": "d6b5cae6-3bda-4065-9956-4d4b33be47a3"
+            }
+        },
+        "613d8ad7-cc95-423a-b62a-bd6c842cfeab": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.jumpdrive.temperature"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Nominal",
+                        "label": "Temperature:&lt;br&gt;Nominal",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#50cfc3",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "200%"
+                    },
+                    "rule0": {
+                        "name": "High",
+                        "label": "Temperature:&lt;br&gt;High",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Jump drive temperature's Temperature  >= 3900  AND when Jump drive temperature's Temperature  <= 5200  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
+                                "key": "value",
+                                "operation": "greaterThanOrEq",
+                                "values": [
+                                    3900
+                                ]
+                            },
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
+                                "key": "value",
+                                "operation": "lessThanOrEq",
+                                "values": [
+                                    5200
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": "true",
+                        "labelSize": "200%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "Temperature:&lt;br&gt;Critical",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "#ec4705",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Jump drive temperature's Temperature  >= 5200  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
+                                "key": "value",
+                                "operation": "greaterThanOrEq",
+                                "values": [
+                                    5200
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": "true",
+                        "labelSize": "200%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Temperature indicator",
+            "type": "summary-widget",
+            "modified": 1555915541996,
+            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
+            "persisted": 1555915541996,
+            "identifier": {
+                "namespace": "",
+                "key": "613d8ad7-cc95-423a-b62a-bd6c842cfeab"
+            }
+        },
+        "dfb2881d-9b2b-4487-84ca-21c7143c52ba": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.jumpdrive.temperature"
+                }
+            ],
+            "configuration": {
+                "series": [
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.jumpdrive.temperature"
+                        }
+                    }
+                ],
+                "yAxis": {
+                    "autoscale": false,
+                    "range": {
+                        "min": 0,
+                        "max": 5600
+                    }
+                },
+                "xAxis": {},
+                "legend": {
+                    "position": "hidden",
+                    "expandByDefault": false
+                }
+            },
+            "name": "Temperature Plot",
+            "type": "telemetry.plot.overlay",
+            "modified": 1555916070465,
+            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
+            "persisted": 1555916070465,
+            "identifier": {
+                "namespace": "",
+                "key": "dfb2881d-9b2b-4487-84ca-21c7143c52ba"
+            }
+        },
+        "ebde222d-3991-429d-8852-a653cd35fbd7": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.jumpdrive.coherence"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Ready",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "/static/arrow1-turquoise.gif"
+                    },
+                    "rule0": {
+                        "name": "Ready for prep",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Tachyon-baryonic coherence's Coherence  < 100  AND when Tachyon-baryonic coherence's Coherence  >= 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
+                                "key": "value",
+                                "operation": "lessThan",
+                                "values": [
+                                    100
+                                ]
+                            },
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
+                                "key": "value",
+                                "operation": "greaterThanOrEq",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": true,
+                        "backgroundImage": "/static/arrow1-yellow.gif"
+                    },
+                    "rule1": {
+                        "name": "Not ready",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Tachyon-baryonic coherence's Coherence  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
+                                "key": "value",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": true,
+                        "backgroundImage": "/static/arrow1-orange.gif"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Coherence flow",
+            "type": "summary-widget",
+            "modified": 1555946629463,
+            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
+            "persisted": 1555946629463,
+            "identifier": {
+                "namespace": "",
+                "key": "ebde222d-3991-429d-8852-a653cd35fbd7"
+            }
+        },
+        "f2aa1dc8-25a3-4571-82df-5eacb7c2a86e": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.jumpdrive.coherence"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Ready",
+                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{value}}",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#50cfc3",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "150%"
+                    },
+                    "rule0": {
+                        "name": "Ready for prep",
+                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{value}}",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Tachyon-baryonic coherence's Coherence  < 100  AND when Tachyon-baryonic coherence's Coherence  >= 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
+                                "key": "value",
+                                "operation": "lessThan",
+                                "values": [
+                                    100
+                                ]
+                            },
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
+                                "key": "value",
+                                "operation": "greaterThanOrEq",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": true,
+                        "labelSize": "150%"
+                    },
+                    "rule1": {
+                        "name": "Not ready",
+                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{value}}",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "#ec4705",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Tachyon-baryonic coherence's Coherence  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
+                                "key": "value",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "all",
+                        "expanded": true,
+                        "labelSize": "150%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Coherence indicator",
+            "type": "summary-widget",
+            "modified": 1555947269026,
+            "location": "b69cdde2-186b-4867-b6ce-148cac492cf1",
+            "persisted": 1555947269026,
+            "identifier": {
+                "namespace": "",
+                "key": "f2aa1dc8-25a3-4571-82df-5eacb7c2a86e"
             }
         }
     },
