@@ -456,7 +456,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "greaterThan",
                                 "values": [
                                     350
@@ -483,7 +483,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     400
@@ -572,7 +572,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "value",
+                                "key": "statusno",
                                 "operation": "equalTo",
                                 "values": [
                                     1
@@ -599,7 +599,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "value",
+                                "key": "statusno",
                                 "operation": "equalTo",
                                 "values": [
                                     2
@@ -626,7 +626,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "value",
+                                "key": "statusno",
                                 "operation": "equalTo",
                                 "values": [
                                     3
@@ -653,7 +653,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "value",
+                                "key": "statusno",
                                 "operation": "equalTo",
                                 "values": [
                                     4
@@ -798,7 +798,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     3900
@@ -806,7 +806,7 @@
                             },
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "lessThanOrEq",
                                 "values": [
                                     5200
@@ -833,7 +833,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     5200
@@ -920,7 +920,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     3900
@@ -928,7 +928,7 @@
                             },
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "lessThanOrEq",
                                 "values": [
                                     5200
@@ -955,7 +955,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "value",
+                                "key": "jump_drive_temp",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     5200
@@ -1081,7 +1081,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
-                                "key": "value",
+                                "key": "coherence",
                                 "operation": "lessThan",
                                 "values": [
                                     100
@@ -1089,7 +1089,7 @@
                             },
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
-                                "key": "value",
+                                "key": "coherence",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     20
@@ -1116,7 +1116,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
-                                "key": "value",
+                                "key": "coherence",
                                 "operation": "lessThan",
                                 "values": [
                                     20
@@ -1165,7 +1165,7 @@
                 "ruleConfigById": {
                     "default": {
                         "name": "Ready",
-                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{value}}",
+                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{coherence}}",
                         "message": "",
                         "id": "default",
                         "icon": " ",
@@ -1190,7 +1190,7 @@
                     },
                     "rule0": {
                         "name": "Ready for prep",
-                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{value}}",
+                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{coherence}}",
                         "message": "",
                         "id": "rule0",
                         "icon": " ",
@@ -1203,7 +1203,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
-                                "key": "value",
+                                "key": "coherence",
                                 "operation": "lessThan",
                                 "values": [
                                     100
@@ -1211,7 +1211,7 @@
                             },
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
-                                "key": "value",
+                                "key": "coherence",
                                 "operation": "greaterThanOrEq",
                                 "values": [
                                     20
@@ -1225,7 +1225,7 @@
                     },
                     "rule1": {
                         "name": "Not ready",
-                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{value}}",
+                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{coherence}}",
                         "message": "",
                         "id": "rule1",
                         "icon": " ",
@@ -1238,7 +1238,7 @@
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.jumpdrive.coherence",
-                                "key": "value",
+                                "key": "coherence",
                                 "operation": "lessThan",
                                 "values": [
                                     20

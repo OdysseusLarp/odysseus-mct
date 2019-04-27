@@ -17,7 +17,7 @@ window.odysseusDictionary = {
             "key": "prop.jumpdrive.temperature",
             "values": [
                 {
-                    "key": "value",
+                    "key": "jump_drive_temp", // must be same as 'source.field' below
                     "name": "Temperature",
                     "units": "K",
                     "formatString": '%d K',
@@ -47,7 +47,7 @@ window.odysseusDictionary = {
             "key": "prop.jumpdrive.coherence",
             "values": [
                 {
-                    "key": "value",
+                    "key": "coherence",
                     "name": "Coherence",
                     "units": "%",
                     "formatString": '%d%%',
@@ -77,7 +77,7 @@ window.odysseusDictionary = {
             "key": "prop.jumpdrive.state",
             "values": [
                 {
-                    "key": "value",
+                    "key": "statusno",
                     "name": "State",
                     "format": "enum",
                     "enumerations": [

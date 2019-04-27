@@ -26,7 +26,7 @@ function BackendTelemetryPlugin() {
                 socket.on('dataUpdate', function(type,id,data){
                     const point = {
                         timestamp: Date.now(),
-                        value: data[m.source.field],
+                        [m.source.field]: data[m.source.field],
                         id: key
                     }
                     callback(point)
@@ -48,7 +48,7 @@ function BackendTelemetryPlugin() {
                         .then(value => {
                             return [{
                                 timestamp: Date.now(),
-                                value: value,
+                                [m.source.field]: value,
                                 id: key
                             }]
                         })
