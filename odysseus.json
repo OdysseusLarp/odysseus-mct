@@ -306,56 +306,6 @@
                 "key": "9ac4dd6c-46dc-4efe-91bd-1e979b715765"
             }
         },
-        "219828a2-c7db-4c3d-9fc2-d6339646b03a": {
-            "name": "Fault status",
-            "type": "example.page",
-            "url": "http://localhost:8082/#/tasks",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "219828a2-c7db-4c3d-9fc2-d6339646b03a"
-            }
-        },
-        "b60bb39d-8b6e-4345-96fb-c15ff2652167": {
-            "name": "Fault description",
-            "type": "example.page",
-            "url": "http://localhost:8082/#/taskDetails",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "b60bb39d-8b6e-4345-96fb-c15ff2652167"
-            }
-        },
-        "30d8e3c1-3edd-424c-93a2-bf37b0918f1c": {
-            "name": "Fault location",
-            "type": "example.page",
-            "url": "http://localhost:8082/#/taskMap",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "30d8e3c1-3edd-424c-93a2-bf37b0918f1c"
-            }
-        },
-        "a23b9c61-2a8c-43e5-9eea-bfe4b34130be": {
-            "name": "Ship faults title",
-            "type": "example.image",
-            "url": "static/title-ship-faults.png",
-            "size": "contain",
-            "position": "center center",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "a23b9c61-2a8c-43e5-9eea-bfe4b34130be"
-            }
-        },
         "c0a1d2c7-9d3d-48ea-a733-1a11cfd6e831": {
             "composition": [
                 {
@@ -832,7 +782,7 @@
                         ],
                         "jsCondition": "",
                         "trigger": "all",
-                        "expanded": true,
+                        "expanded": false,
                         "labelSize": "150%"
                     },
                     "rule1": {
@@ -842,7 +792,7 @@
                         "id": "rule1",
                         "icon": " ",
                         "style": {
-                            "color": "#ffffff",
+                            "color": "#000000",
                             "background-color": "#ec4705",
                             "border-color": "rgba(0,0,0,0)"
                         },
@@ -875,9 +825,9 @@
             "telemetry": {},
             "name": "Coherence indicator",
             "type": "summary-widget",
-            "modified": 1556477163699,
+            "modified": 1556480105367,
             "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556477163699,
+            "persisted": 1556480105367,
             "identifier": {
                 "namespace": "",
                 "key": "3bcab4ef-e3e9-4f0c-be7d-6ffd09757c50"
@@ -1751,6 +1701,56 @@
             "identifier": {
                 "namespace": "",
                 "key": "99efe008-353d-4f9a-8d72-fbf2bf546981"
+            }
+        },
+        "219828a2-c7db-4c3d-9fc2-d6339646b03a": {
+            "name": "Fault status",
+            "type": "example.page",
+            "url": "http://localhost:8082/#/tasks",
+            "modified": 1556396266443,
+            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
+            "persisted": 1556396266443,
+            "identifier": {
+                "namespace": "",
+                "key": "219828a2-c7db-4c3d-9fc2-d6339646b03a"
+            }
+        },
+        "b60bb39d-8b6e-4345-96fb-c15ff2652167": {
+            "name": "Fault description",
+            "type": "example.page",
+            "url": "http://localhost:8082/#/taskDetails",
+            "modified": 1556396266443,
+            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
+            "persisted": 1556396266443,
+            "identifier": {
+                "namespace": "",
+                "key": "b60bb39d-8b6e-4345-96fb-c15ff2652167"
+            }
+        },
+        "30d8e3c1-3edd-424c-93a2-bf37b0918f1c": {
+            "name": "Fault location",
+            "type": "example.page",
+            "url": "http://localhost:8082/#/taskMap",
+            "modified": 1556396266443,
+            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
+            "persisted": 1556396266443,
+            "identifier": {
+                "namespace": "",
+                "key": "30d8e3c1-3edd-424c-93a2-bf37b0918f1c"
+            }
+        },
+        "a23b9c61-2a8c-43e5-9eea-bfe4b34130be": {
+            "name": "Ship faults title",
+            "type": "example.image",
+            "url": "static/title-ship-faults.png",
+            "size": "contain",
+            "position": "center center",
+            "modified": 1556396266443,
+            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
+            "persisted": 1556396266443,
+            "identifier": {
+                "namespace": "",
+                "key": "a23b9c61-2a8c-43e5-9eea-bfe4b34130be"
             }
         }
     },
