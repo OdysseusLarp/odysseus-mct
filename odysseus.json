@@ -8,18 +8,14 @@
                 },
                 {
                     "namespace": "",
-                    "key": "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca"
-                },
-                {
-                    "namespace": "",
                     "key": "9ac4dd6c-46dc-4efe-91bd-1e979b715765"
                 }
             ],
             "name": "ESS Odysseus",
             "type": "folder",
-            "modified": 1556396266430,
+            "modified": 1556478181253,
             "location": "mine",
-            "persisted": 1556396266430,
+            "persisted": 1556478181253,
             "identifier": {
                 "namespace": "",
                 "key": "3d635037-4e95-4273-94a3-2d86b82a183d"
@@ -135,109 +131,6 @@
             "identifier": {
                 "namespace": "",
                 "key": "3674c39e-8770-44ec-b46e-0b14be334ed6"
-            }
-        },
-        "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca": {
-            "composition": [
-                {
-                    "namespace": "",
-                    "key": "372fd047-5fa8-4a30-b6b9-96ea23e28bc0"
-                },
-                {
-                    "namespace": "",
-                    "key": "89d2d29e-1231-4951-b8c7-e44b0e8e7f61"
-                },
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.temperature"
-                },
-                {
-                    "namespace": "",
-                    "key": "a2d1b164-0a8d-488c-a2d1-8ed01c34478a"
-                },
-                {
-                    "namespace": "",
-                    "key": "8b1c4237-df88-4b46-85af-7717c469e85d"
-                }
-            ],
-            "configuration": {
-                "layout": {
-                    "panels": {
-                        "odysseus": {
-                            "taxonomy:prop": {
-                                "jumpdrive": {
-                                    "temperature": {
-                                        "hasFrame": false
-                                    }
-                                }
-                            }
-                        },
-                        "372fd047-5fa8-4a30-b6b9-96ea23e28bc0": {
-                            "position": [
-                                1,
-                                1
-                            ],
-                            "dimensions": [
-                                24,
-                                3
-                            ],
-                            "hasFrame": false
-                        },
-                        "89d2d29e-1231-4951-b8c7-e44b0e8e7f61": {
-                            "position": [
-                                13,
-                                5
-                            ],
-                            "dimensions": [
-                                12,
-                                3
-                            ],
-                            "hasFrame": false
-                        },
-                        "odysseus.taxonomy:prop.jumpdrive.temperature": {
-                            "position": [
-                                13,
-                                9
-                            ],
-                            "dimensions": [
-                                12,
-                                8
-                            ],
-                            "hasFrame": true
-                        },
-                        "a2d1b164-0a8d-488c-a2d1-8ed01c34478a": {
-                            "position": [
-                                1,
-                                5
-                            ],
-                            "dimensions": [
-                                11,
-                                3
-                            ],
-                            "hasFrame": false
-                        },
-                        "8b1c4237-df88-4b46-85af-7717c469e85d": {
-                            "position": [
-                                1,
-                                10
-                            ],
-                            "dimensions": [
-                                11,
-                                3
-                            ],
-                            "hasFrame": false
-                        }
-                    }
-                }
-            },
-            "name": "Engineering - Jump drive",
-            "type": "layout",
-            "modified": 1556396266444,
-            "location": "3d635037-4e95-4273-94a3-2d86b82a183d",
-            "persisted": 1556396266444,
-            "identifier": {
-                "namespace": "",
-                "key": "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca"
             }
         },
         "9ac4dd6c-46dc-4efe-91bd-1e979b715765": {
@@ -601,7 +494,7 @@
                 "ruleConfigById": {
                     "default": {
                         "name": "Nominal",
-                        "label": "Temperature:&lt;br&gt;Nominal",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Temperature:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron\"&gt;Nominal&lt;/span&gt;",
                         "message": "",
                         "id": "default",
                         "icon": " ",
@@ -622,11 +515,11 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule0": {
                         "name": "High",
-                        "label": "Temperature:&lt;br&gt;High",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Temperature:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;High&lt;/span&gt;",
                         "message": "",
                         "id": "rule0",
                         "icon": " ",
@@ -656,12 +549,12 @@
                         ],
                         "jsCondition": "",
                         "trigger": "all",
-                        "expanded": "true",
-                        "labelSize": "200%"
+                        "expanded": false,
+                        "labelSize": "150%"
                     },
                     "rule1": {
                         "name": "Critical",
-                        "label": "Temperature:&lt;br&gt;Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Temperature:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Critical&lt;/span&gt;",
                         "message": "",
                         "id": "rule1",
                         "icon": " ",
@@ -683,8 +576,8 @@
                         ],
                         "jsCondition": "",
                         "trigger": "all",
-                        "expanded": "true",
-                        "labelSize": "200%"
+                        "expanded": false,
+                        "labelSize": "150%"
                     }
                 },
                 "testDataConfig": [
@@ -699,9 +592,9 @@
             "telemetry": {},
             "name": "Temperature indicator",
             "type": "summary-widget",
-            "modified": 1556396266472,
+            "modified": 1556477920317,
             "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556396266472,
+            "persisted": 1556477920317,
             "identifier": {
                 "namespace": "",
                 "key": "6e73e1e6-3c71-450f-b6ab-a5d1c49d3882"
@@ -884,7 +777,7 @@
                 "ruleConfigById": {
                     "default": {
                         "name": "Ready",
-                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{coherence}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Tachyon-baryonic&lt;br&gt;coherence:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{coherence}}&lt;/span&gt;",
                         "message": "",
                         "id": "default",
                         "icon": " ",
@@ -904,12 +797,12 @@
                         ],
                         "jsCondition": "",
                         "trigger": "any",
-                        "expanded": true,
+                        "expanded": false,
                         "labelSize": "150%"
                     },
                     "rule0": {
                         "name": "Ready for prep",
-                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{coherence}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Tachyon-baryonic&lt;br&gt;coherence:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{coherence}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule0",
                         "icon": " ",
@@ -944,7 +837,7 @@
                     },
                     "rule1": {
                         "name": "Not ready",
-                        "label": "Tachyon-baryonic&lt;br&gt;coherence:&lt;br&gt;{{coherence}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Tachyon-baryonic&lt;br&gt;coherence:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{coherence}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule1",
                         "icon": " ",
@@ -982,9 +875,9 @@
             "telemetry": {},
             "name": "Coherence indicator",
             "type": "summary-widget",
-            "modified": 1556396266489,
+            "modified": 1556477163699,
             "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556396266489,
+            "persisted": 1556477163699,
             "identifier": {
                 "namespace": "",
                 "key": "3bcab4ef-e3e9-4f0c-be7d-6ffd09757c50"
@@ -1171,11 +1064,11 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": false,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule0": {
                         "name": "(2) Cooldown",
-                        "label": "Regulation jump:&lt;br&gt;{{readyT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Regulation jump:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{readyT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule0",
                         "icon": " ",
@@ -1198,11 +1091,11 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": false,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule1": {
                         "name": "(1) Broken",
-                        "label": "Power line&lt;br&gt;fault",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Power line&lt;br&gt;fault&lt;/span&gt;",
                         "message": "",
                         "id": "rule1",
                         "icon": " ",
@@ -1225,11 +1118,11 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": false,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule2": {
                         "name": "(3a) Not ready",
-                        "label": "Regulation jump:&lt;br&gt;{{readyT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Regulation jump:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{readyT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule2",
                         "icon": " ",
@@ -1268,11 +1161,11 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": false,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule3": {
                         "name": "(3b) Ready",
-                        "label": "Regulation jump:&lt;br&gt;{{readyT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Regulation jump:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{readyT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule3",
                         "icon": " ",
@@ -1311,11 +1204,11 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": false,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule4": {
                         "name": "(4a) Jump init yellow",
-                        "label": "Jump in:&lt;br&gt;{{jumpT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Jump in:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{jumpT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule4",
                         "icon": " ",
@@ -1345,12 +1238,12 @@
                         ],
                         "jsCondition": "",
                         "trigger": "all",
-                        "expanded": false,
-                        "labelSize": "200%"
+                        "expanded": true,
+                        "labelSize": "150%"
                     },
                     "rule5": {
                         "name": "(5a) Jumping yellow",
-                        "label": "Jump duration:&lt;br&gt;{{jumpT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Jump duration:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{jumpT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule5",
                         "icon": " ",
@@ -1380,12 +1273,12 @@
                         ],
                         "jsCondition": "",
                         "trigger": "all",
-                        "expanded": false,
-                        "labelSize": "200%"
+                        "expanded": true,
+                        "labelSize": "150%"
                     },
                     "rule6": {
                         "name": "(4b) Jump init blue",
-                        "label": "Jump in:&lt;br&gt;{{jumpT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Jump in:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{jumpT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule6",
                         "icon": " ",
@@ -1415,12 +1308,12 @@
                         ],
                         "jsCondition": "",
                         "trigger": "all",
-                        "expanded": false,
-                        "labelSize": "200%"
+                        "expanded": true,
+                        "labelSize": "150%"
                     },
                     "rule7": {
                         "name": "(5b) Jumping blue",
-                        "label": "Jump duration:&lt;br&gt;{{jumpT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Jump duration:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{jumpT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule7",
                         "icon": " ",
@@ -1451,7 +1344,7 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     }
                 },
                 "testDataConfig": [
@@ -1466,9 +1359,9 @@
             "telemetry": {},
             "name": "Jump countdown",
             "type": "summary-widget",
-            "modified": 1556457914233,
+            "modified": 1556477654394,
             "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556457914233,
+            "persisted": 1556477654394,
             "identifier": {
                 "namespace": "",
                 "key": "5f77d60d-e80a-43de-bdef-f148331596e4"
@@ -1493,7 +1386,7 @@
                 "ruleConfigById": {
                     "default": {
                         "name": "Ready",
-                        "label": "Cooldown:&lt;br&gt;{{cooldownT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Cooldown:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{cooldownT}}&lt;/span&gt;",
                         "message": "",
                         "id": "default",
                         "icon": " ",
@@ -1514,11 +1407,11 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule0": {
                         "name": "Not ready",
-                        "label": "Cooldown:&lt;br&gt;{{cooldownT}}",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:80%\"&gt;Cooldown:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;{{cooldownT}}&lt;/span&gt;",
                         "message": "",
                         "id": "rule0",
                         "icon": " ",
@@ -1556,9 +1449,9 @@
             "telemetry": {},
             "name": "Cooldown indicator",
             "type": "summary-widget",
-            "modified": 1556458456976,
+            "modified": 1556477702130,
             "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556458456976,
+            "persisted": 1556477702130,
             "identifier": {
                 "namespace": "",
                 "key": "1103ca40-5bd6-4609-9d5b-66935d1d6764"
@@ -1586,7 +1479,7 @@
                 "ruleConfigById": {
                     "default": {
                         "name": "Broken",
-                        "label": "System&lt;br&gt;fault",
+                        "label": "&lt;span class=\"orbitron bold\"&gt;System&lt;br&gt;fault&lt;/span&gt;",
                         "message": "",
                         "id": "default",
                         "icon": " ",
@@ -1607,11 +1500,11 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule0": {
                         "name": "Cooldown",
-                        "label": "Cooldown&lt;br&gt;in progress",
+                        "label": "&lt;span class=\"orbitron bold\"&gt;Cooldown&lt;br&gt;in progress&lt;/span&gt;",
                         "message": "",
                         "id": "rule0",
                         "icon": " ",
@@ -1633,12 +1526,12 @@
                         ],
                         "jsCondition": "",
                         "trigger": "any",
-                        "expanded": false,
-                        "labelSize": "200%"
+                        "expanded": true,
+                        "labelSize": "150%"
                     },
                     "rule1": {
                         "name": "ready_to_prep",
-                        "label": "Ready for&lt;br&gt;pre-jump prep",
+                        "label": "&lt;span class=\"orbitron bold\"&gt;Ready for&lt;br&gt;pre-jump prep&lt;/span&gt;",
                         "message": "",
                         "id": "rule1",
                         "icon": " ",
@@ -1660,8 +1553,8 @@
                         ],
                         "jsCondition": "",
                         "trigger": "any",
-                        "expanded": false,
-                        "labelSize": "200%"
+                        "expanded": true,
+                        "labelSize": "150%"
                     },
                     "rule2": {
                         "name": "calculating",
@@ -1688,7 +1581,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule3": {
                         "name": "preparation",
@@ -1715,7 +1608,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule4": {
                         "name": "prep_complete",
@@ -1742,7 +1635,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule5": {
                         "name": "ready",
@@ -1769,7 +1662,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule6": {
                         "name": "jump_initiated",
@@ -1796,7 +1689,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     },
                     "rule7": {
                         "name": "jumping",
@@ -1823,7 +1716,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "labelSize": "200%"
+                        "labelSize": "150%"
                     }
                 },
                 "testDataConfig": [
@@ -1838,9 +1731,9 @@
             "telemetry": {},
             "name": "Status indicator",
             "type": "summary-widget",
-            "modified": 1556459008326,
+            "modified": 1556477990704,
             "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556459008326,
+            "persisted": 1556477990704,
             "identifier": {
                 "namespace": "",
                 "key": "40208280-4bc3-41ae-9fc1-bc90b8162017"
@@ -1858,362 +1751,6 @@
             "identifier": {
                 "namespace": "",
                 "key": "99efe008-353d-4f9a-8d72-fbf2bf546981"
-            }
-        },
-        "372fd047-5fa8-4a30-b6b9-96ea23e28bc0": {
-            "name": "Jump drive",
-            "type": "example.html",
-            "html": "<span style=\"font-size: 300%; text-align: center; color: #333;\">Jump drive</span>",
-            "css": "background-color: #ffce00",
-            "valign": "center",
-            "modified": 1556396266448,
-            "location": "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca",
-            "persisted": 1556396266448,
-            "identifier": {
-                "namespace": "",
-                "key": "372fd047-5fa8-4a30-b6b9-96ea23e28bc0"
-            }
-        },
-        "89d2d29e-1231-4951-b8c7-e44b0e8e7f61": {
-            "composition": [
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.temperature"
-                }
-            ],
-            "configuration": {
-                "ruleOrder": [
-                    "default",
-                    "rule0",
-                    "rule1"
-                ],
-                "ruleConfigById": {
-                    "default": {
-                        "name": "Default",
-                        "label": "Temperature: &lt;br&gt; Nominal",
-                        "message": "",
-                        "id": "default",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#38761d",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "Default appearance for the widget",
-                        "conditions": [
-                            {
-                                "object": "",
-                                "key": "",
-                                "operation": "",
-                                "values": []
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": false,
-                        "labelSize": "200%"
-                    },
-                    "rule0": {
-                        "name": "Rule",
-                        "label": "Temperature: &lt;br&gt; High",
-                        "message": "",
-                        "id": "rule0",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#bf9000",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive temperature's Temperature  > 350  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "jump_drive_temp",
-                                "operation": "greaterThan",
-                                "values": [
-                                    350
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": false,
-                        "labelSize": "200%"
-                    },
-                    "rule1": {
-                        "name": "Rule",
-                        "label": "Temperature: &lt;br&gt; Critical",
-                        "message": "",
-                        "id": "rule1",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#cc0000",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive temperature's Temperature  >= 400  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.temperature",
-                                "key": "jump_drive_temp",
-                                "operation": "greaterThanOrEq",
-                                "values": [
-                                    400
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    }
-                },
-                "testDataConfig": [
-                    {
-                        "object": "",
-                        "key": "",
-                        "value": ""
-                    }
-                ]
-            },
-            "openNewTab": "thisTab",
-            "telemetry": {},
-            "name": "Jump drive temperature",
-            "type": "summary-widget",
-            "modified": 1556396266448,
-            "location": "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca",
-            "persisted": 1556396266448,
-            "identifier": {
-                "namespace": "",
-                "key": "89d2d29e-1231-4951-b8c7-e44b0e8e7f61"
-            }
-        },
-        "a2d1b164-0a8d-488c-a2d1-8ed01c34478a": {
-            "composition": [
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.state"
-                }
-            ],
-            "configuration": {
-                "ruleOrder": [
-                    "default",
-                    "rule0",
-                    "rule1",
-                    "rule2",
-                    "rule3"
-                ],
-                "ruleConfigById": {
-                    "default": {
-                        "name": "Default",
-                        "label": "State: &lt;br&gt; {{value}}",
-                        "message": "",
-                        "id": "default",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#38761d",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "Default appearance for the widget",
-                        "conditions": [
-                            {
-                                "object": "",
-                                "key": "",
-                                "operation": "",
-                                "values": []
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    },
-                    "rule0": {
-                        "name": "Default Copy",
-                        "label": "State: &lt;br&gt; {{value}}",
-                        "message": "",
-                        "id": "rule0",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#3c78d8",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive state's State  == 1  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "statusno",
-                                "operation": "equalTo",
-                                "values": [
-                                    1
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    },
-                    "rule1": {
-                        "name": "Default Copy Copy",
-                        "label": "State: &lt;br&gt; {{value}}",
-                        "message": "",
-                        "id": "rule1",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#f1c232",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive state's State  == 2  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "statusno",
-                                "operation": "equalTo",
-                                "values": [
-                                    2
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    },
-                    "rule2": {
-                        "name": "Default Copy Copy Copy",
-                        "label": "State: &lt;br&gt; {{value}}",
-                        "message": "",
-                        "id": "rule2",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#ff9900",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive state's State  == 3  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "statusno",
-                                "operation": "equalTo",
-                                "values": [
-                                    3
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    },
-                    "rule3": {
-                        "name": "Default Copy Copy Copy Copy",
-                        "label": "State: &lt;br&gt; {{value}}",
-                        "message": "",
-                        "id": "rule3",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#ff0000",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "when Jump drive state's State  == 4  ",
-                        "conditions": [
-                            {
-                                "object": "odysseus.taxonomy:prop.jumpdrive.state",
-                                "key": "statusno",
-                                "operation": "equalTo",
-                                "values": [
-                                    4
-                                ]
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    }
-                },
-                "testDataConfig": [
-                    {
-                        "object": "",
-                        "key": "",
-                        "value": ""
-                    }
-                ]
-            },
-            "openNewTab": "thisTab",
-            "telemetry": {},
-            "name": "Jump drive state",
-            "type": "summary-widget",
-            "modified": 1556396266450,
-            "location": "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca",
-            "persisted": 1556396266450,
-            "identifier": {
-                "namespace": "",
-                "key": "a2d1b164-0a8d-488c-a2d1-8ed01c34478a"
-            }
-        },
-        "8b1c4237-df88-4b46-85af-7717c469e85d": {
-            "composition": [
-                {
-                    "namespace": "odysseus.taxonomy",
-                    "key": "prop.jumpdrive.state"
-                }
-            ],
-            "configuration": {
-                "ruleOrder": [
-                    "default"
-                ],
-                "ruleConfigById": {
-                    "default": {
-                        "name": "Default",
-                        "label": "Jumping in &lt;br&gt; T-14:10",
-                        "message": "",
-                        "id": "default",
-                        "icon": " ",
-                        "style": {
-                            "color": "#ffffff",
-                            "background-color": "#bf9000",
-                            "border-color": "rgba(0,0,0,0)"
-                        },
-                        "description": "Default appearance for the widget",
-                        "conditions": [
-                            {
-                                "object": "",
-                                "key": "",
-                                "operation": "",
-                                "values": []
-                            }
-                        ],
-                        "jsCondition": "",
-                        "trigger": "any",
-                        "expanded": true,
-                        "labelSize": "200%"
-                    }
-                },
-                "testDataConfig": [
-                    {
-                        "object": "",
-                        "key": "",
-                        "value": ""
-                    }
-                ]
-            },
-            "openNewTab": "thisTab",
-            "telemetry": {},
-            "name": "Jump timer",
-            "type": "summary-widget",
-            "modified": 1556396266456,
-            "location": "c80c4e66-dd5f-4e13-9ad2-e3563ef3cdca",
-            "persisted": 1556396266456,
-            "identifier": {
-                "namespace": "",
-                "key": "8b1c4237-df88-4b46-85af-7717c469e85d"
             }
         }
     },
