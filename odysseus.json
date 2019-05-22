@@ -343,7 +343,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "backgroundImage": "/static/arrow1-turquoise.gif"
+                        "backgroundImage": "static/arrow1-turquoise.gif"
                     },
                     "rule0": {
                         "name": "High",
@@ -378,7 +378,7 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": true,
-                        "backgroundImage": "/static/arrow1-yellow.gif"
+                        "backgroundImage": "static/arrow1-yellow.gif"
                     },
                     "rule1": {
                         "name": "Critical",
@@ -405,7 +405,7 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": "true",
-                        "backgroundImage": "/static/arrow1-orange.gif"
+                        "backgroundImage": "static/arrow1-orange.gif"
                     }
                 },
                 "testDataConfig": [
@@ -626,7 +626,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": true,
-                        "backgroundImage": "/static/arrow1-turquoise.gif"
+                        "backgroundImage": "static/arrow1-turquoise.gif"
                     },
                     "rule0": {
                         "name": "Ready for prep",
@@ -661,7 +661,7 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": true,
-                        "backgroundImage": "/static/arrow1-yellow.gif"
+                        "backgroundImage": "static/arrow1-yellow.gif"
                     },
                     "rule1": {
                         "name": "Not ready",
@@ -688,7 +688,7 @@
                         "jsCondition": "",
                         "trigger": "all",
                         "expanded": true,
-                        "backgroundImage": "/static/arrow1-orange.gif"
+                        "backgroundImage": "static/arrow1-orange.gif"
                     }
                 },
                 "testDataConfig": [
@@ -874,7 +874,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": false,
-                        "backgroundImage": "/static/arrow2-turquoise.gif"
+                        "backgroundImage": "static/arrow2-turquoise.gif"
                     },
                     "rule0": {
                         "name": "Broken or cooldown",
@@ -909,7 +909,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": false,
-                        "backgroundImage": "/static/arrow2-orange.gif"
+                        "backgroundImage": "static/arrow2-orange.gif"
                     },
                     "rule1": {
                         "name": "Breaking jump possible",
@@ -936,7 +936,7 @@
                         "jsCondition": "",
                         "trigger": "any",
                         "expanded": false,
-                        "backgroundImage": "/static/arrow2-yellow.gif"
+                        "backgroundImage": "static/arrow2-yellow.gif"
                     }
                 },
                 "testDataConfig": [
