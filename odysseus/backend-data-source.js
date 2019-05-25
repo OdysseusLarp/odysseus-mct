@@ -9,7 +9,11 @@ function BackendTelemetryPlugin() {
         }
         return fetch(`${window.odysseusDictionary.backend.url}/data/${type}/${id}`, {headers: headers})
         .then(response => response.json())
-        .then(json => json[field])
+        .then(json => _.get(json, field))
+    }
+
+    function getKey(m) {
+        return m.values[0].key
     }
 
     return function (openmct) {
@@ -26,7 +30,7 @@ function BackendTelemetryPlugin() {
                 socket.on('dataUpdate', function(type,id,data){
                     const point = {
                         timestamp: Date.now(),
-                        [m.source.field]: data[m.source.field],
+                        [getKey(m)]: _.get(data, m.source.field) * (m.source.multiplier || 1),
                         id: key
                     }
                     callback(point)
@@ -48,7 +52,7 @@ function BackendTelemetryPlugin() {
                         .then(value => {
                             return [{
                                 timestamp: Date.now(),
-                                [m.source.field]: value,
+                                [getKey(m)]: value * (m.source.multiplier || 1),
                                 id: key
                             }]
                         })

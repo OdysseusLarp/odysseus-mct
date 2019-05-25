@@ -2,25 +2,17 @@ function findDictionaryMeasurement(key) {
     return window.odysseusDictionary.measurements.find(m => m.key === key)
 }
 
-
-window.odysseusDictionary = {
-    "name": "Example Spacecraft",
-    "key": "sc",
-    "backend": {
-        "url" : "https://odysseus.nicou.me",
-        "username": "",
-        "password": ""
-    },
-    "measurements": [
+function eeType(type, name) {
+    return [
         {
-            "name": "Jump drive temperature",
-            "key": "prop.jumpdrive.temperature",
+            "name": name + " health",
+            "key": "prop.health." + type,
             "values": [
                 {
-                    "key": "jump_drive_temp", // must be same as 'source.field' below
-                    "name": "Temperature",
-                    "units": "K",
-                    "formatString": '%d K',
+                    "key": type + "Health",
+                    "name": name + " health",
+                    "units": "%",
+                    "formatString": '%d%%',
                     "hints": {
                         "range": 1
                     }
@@ -38,8 +30,84 @@ window.odysseusDictionary = {
             "source": {
                 "method": "backend",
                 "type": "ship",
-                "id": "jumpstate",
-                "field": "jump_drive_temp",
+                "id": "ee",
+                "field": "systems.health." + type + "Health",
+                "multiplier": 100,
+            }
+        },
+        {
+            "name": name + " criticality",
+            "key": "prop.heat." + type,
+            "values": [
+                {
+                    "key": type + "Criticality",
+                    "name": name + " criticality",
+                    "units": "%",
+                    "formatString": '%d%%',
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "ship",
+                "id": "ee",
+                "field": "systems.heat." + type + "Heat",
+                "multiplier": 100,
+            }
+        },
+    ]
+}
+
+
+window.odysseusDictionary = {
+    "name": "Example Spacecraft",
+    "key": "sc",
+    "backend": {
+        "url" : "https://odysseus.nicou.me",
+        "username": "",
+        "password": ""
+    },
+    "measurements": [
+        {
+            "name": "Jump drive temperature",       // Name shown in 'Ship telemetry'
+            "key": "prop.jumpdrive.temperature",    // Internal key for type
+            "values": [
+                {
+                    "key": "jump_drive_temp",       // Internal key for value, used as {{placeholder}}
+                    "name": "Temperature",          // Label shown in UI
+                    "units": "K",                   // Units shown in UI
+                    "formatString": '%d K',         // Format string used when displaying
+                    "hints": {
+                        "range": 1                  // Hint that this is shown on Y-axis of graphs
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",                // Use Odysseus backend data blob as source
+                "type": "ship",                     // Data blob type
+                "id": "jumpstate",                  // Data blob ID
+                "field": "jump_drive_temp",         // Field in data blob, may contain 'a.b.c'
+                "multiplier": 1,                    // Optional multiplier for value
             }
         },
         {
@@ -286,5 +354,15 @@ window.odysseusDictionary = {
                 "field": "statusno",
         }
         },
+
+        // EE entries
+        ...eeType("reactor", "Reactor"),
+        ...eeType("impulse", "Impulse drive"),
+        ...eeType("maneuver", "Maneuvering"),
+        ...eeType("frontshield", "Front shield"),
+        ...eeType("rearshield", "Rear shield"),
+        ...eeType("missilesystem", "Missile system"),
+        ...eeType("beamweapons", "Beam weapons"),
+        
     ]
 }
