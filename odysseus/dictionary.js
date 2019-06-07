@@ -66,6 +66,65 @@ function eeType(type, name) {
                 "multiplier": 100,
             }
         },
+        {
+            "name": name + " temperature",
+            "key": "prop.temp." + type,
+            "values": [
+                {
+                    "key": type + "Temp",
+                    "name": name + " temperature",
+                    "units": "°C",
+                    "formatString": '%d°C',
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "ship",
+                "id": "ee_temp",
+                "field": type + "Temp",
+            }
+        },
+        {
+            "name": name + " temperature status",
+            "key": "prop.temp." + type + ".status",
+            "values": [
+                {
+                    "key": type + "Status",
+                    "name": name + " temperature status",
+                    "format": "string",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "ship",
+                "id": "ee_temp",
+                "field": type + "Status",
+            }
+        },
     ]
 }
 
@@ -364,5 +423,70 @@ window.odysseusDictionary = {
         ...eeType("missilesystem", "Missile system"),
         ...eeType("beamweapons", "Beam weapons"),
         
+        // Hull
+        {
+            "name": "Ship hull health",
+            "key": "prop.health.hull",
+            "values": [
+                {
+                    "key": "hullHealth",
+                    "name": "Ship hull health",
+                    "units": "%",
+                    "formatString": '%d%%',
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "ship",
+                "id": "ee",
+                "field": "general.shipHullPercent",
+                "multiplier": 100,
+            }
+        },
+
+        // Life support
+        {
+            "name": "Life support health",
+            "key": "prop.health.lifesupport",
+            "values": [
+                {
+                    "key": "lifesupportHealth",
+                    "name": "Life support health",
+                    "units": "%",
+                    "formatString": '%d%%',
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "ship",
+                "id": "lifesupport",
+                "field": "health",
+                "multiplier": 100,
+            }
+        },
     ]
 }

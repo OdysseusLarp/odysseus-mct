@@ -1,43 +1,47 @@
 {
     "openmct": {
-        "3d635037-4e95-4273-94a3-2d86b82a183d": {
+        "72621c65-3482-4229-9487-51044183f951": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "3674c39e-8770-44ec-b46e-0b14be334ed6"
+                    "key": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d"
                 },
                 {
                     "namespace": "",
-                    "key": "9ac4dd6c-46dc-4efe-91bd-1e979b715765"
+                    "key": "d99a80c1-25d0-4654-87a2-e6d9267e807c"
+                },
+                {
+                    "namespace": "",
+                    "key": "734f8cd2-232e-469b-819f-e7d29a2cc3c3"
                 }
             ],
             "name": "ESS Odysseus",
             "type": "folder",
-            "modified": 1556478181253,
+            "modified": 1560009043228,
             "location": "mine",
-            "persisted": 1556478181253,
+            "persisted": 1560009043228,
             "identifier": {
                 "namespace": "",
-                "key": "3d635037-4e95-4273-94a3-2d86b82a183d"
+                "key": "72621c65-3482-4229-9487-51044183f951"
             }
         },
-        "3674c39e-8770-44ec-b46e-0b14be334ed6": {
+        "1dc64108-aa4f-44c1-bfce-682a64a1cf3d": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "219828a2-c7db-4c3d-9fc2-d6339646b03a"
+                    "key": "c6c68ff2-fca8-40c2-ad29-33615e790150"
                 },
                 {
                     "namespace": "",
-                    "key": "b60bb39d-8b6e-4345-96fb-c15ff2652167"
+                    "key": "cf970ebd-112f-4d9c-b3bb-88db17990ea4"
                 },
                 {
                     "namespace": "",
-                    "key": "30d8e3c1-3edd-424c-93a2-bf37b0918f1c"
+                    "key": "ee29d371-206e-47d9-9193-b730632ba5c3"
                 },
                 {
                     "namespace": "",
-                    "key": "a23b9c61-2a8c-43e5-9eea-bfe4b34130be"
+                    "key": "58237a19-6501-4fff-83b8-95cd29e1516b"
                 }
             ],
             "configuration": {
@@ -76,7 +80,7 @@
                             ],
                             "hasFrame": true
                         },
-                        "30d8e3c1-3edd-424c-93a2-bf37b0918f1c": {
+                        "ee29d371-206e-47d9-9193-b730632ba5c3": {
                             "position": [
                                 25,
                                 15
@@ -87,7 +91,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "219828a2-c7db-4c3d-9fc2-d6339646b03a": {
+                        "c6c68ff2-fca8-40c2-ad29-33615e790150": {
                             "position": [
                                 0,
                                 4
@@ -98,7 +102,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "b60bb39d-8b6e-4345-96fb-c15ff2652167": {
+                        "cf970ebd-112f-4d9c-b3bb-88db17990ea4": {
                             "position": [
                                 1,
                                 15
@@ -109,7 +113,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "a23b9c61-2a8c-43e5-9eea-bfe4b34130be": {
+                        "58237a19-6501-4fff-83b8-95cd29e1516b": {
                             "position": [
                                 0,
                                 0
@@ -125,61 +129,61 @@
             },
             "name": "Ship faults",
             "type": "layout",
-            "modified": 1556396266434,
-            "location": "3d635037-4e95-4273-94a3-2d86b82a183d",
-            "persisted": 1556396266434,
+            "modified": 1560009043233,
+            "location": "72621c65-3482-4229-9487-51044183f951",
+            "persisted": 1560009043233,
             "identifier": {
                 "namespace": "",
-                "key": "3674c39e-8770-44ec-b46e-0b14be334ed6"
+                "key": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d"
             }
         },
-        "9ac4dd6c-46dc-4efe-91bd-1e979b715765": {
+        "d99a80c1-25d0-4654-87a2-e6d9267e807c": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "c0a1d2c7-9d3d-48ea-a733-1a11cfd6e831"
+                    "key": "f8f12225-b76e-42fb-92a8-b28ea224868a"
                 },
                 {
                     "namespace": "",
-                    "key": "6e73e1e6-3c71-450f-b6ab-a5d1c49d3882"
+                    "key": "5ef52718-f9b6-4d7e-af1e-2495e8dc2047"
                 },
                 {
                     "namespace": "",
-                    "key": "e1ff954f-bf7e-4b3d-b61e-9bbdd5efdda5"
+                    "key": "17c3873e-1368-404f-92e1-49625aa26d4f"
                 },
                 {
                     "namespace": "",
-                    "key": "f24c5307-41ca-4b70-8d0c-8bc520041b10"
+                    "key": "aae41883-a76f-47bf-bded-903c9eac747c"
                 },
                 {
                     "namespace": "",
-                    "key": "3bcab4ef-e3e9-4f0c-be7d-6ffd09757c50"
+                    "key": "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44"
                 },
                 {
                     "namespace": "",
-                    "key": "09698a66-ef65-4c13-84fb-699f40bc87c3"
+                    "key": "32282f03-fac1-440b-9561-8d37cbaa8ae8"
                 },
                 {
                     "namespace": "",
-                    "key": "5f77d60d-e80a-43de-bdef-f148331596e4"
+                    "key": "fd0081d7-40ec-43d7-827e-25fa9ce8a873"
                 },
                 {
                     "namespace": "",
-                    "key": "1103ca40-5bd6-4609-9d5b-66935d1d6764"
+                    "key": "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb"
                 },
                 {
                     "namespace": "",
-                    "key": "40208280-4bc3-41ae-9fc1-bc90b8162017"
+                    "key": "39b25a7b-bd8b-4a32-b736-cb116d63e15c"
                 },
                 {
                     "namespace": "",
-                    "key": "99efe008-353d-4f9a-8d72-fbf2bf546981"
+                    "key": "7d818b30-eb56-4107-a3e3-bc02753e8c37"
                 }
             ],
             "configuration": {
                 "layout": {
                     "panels": {
-                        "c0a1d2c7-9d3d-48ea-a733-1a11cfd6e831": {
+                        "f8f12225-b76e-42fb-92a8-b28ea224868a": {
                             "position": [
                                 9,
                                 16
@@ -190,7 +194,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "6e73e1e6-3c71-450f-b6ab-a5d1c49d3882": {
+                        "5ef52718-f9b6-4d7e-af1e-2495e8dc2047": {
                             "position": [
                                 0,
                                 15
@@ -201,7 +205,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "e1ff954f-bf7e-4b3d-b61e-9bbdd5efdda5": {
+                        "17c3873e-1368-404f-92e1-49625aa26d4f": {
                             "position": [
                                 0,
                                 19
@@ -212,7 +216,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "f24c5307-41ca-4b70-8d0c-8bc520041b10": {
+                        "aae41883-a76f-47bf-bded-903c9eac747c": {
                             "position": [
                                 9,
                                 11
@@ -223,7 +227,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "3bcab4ef-e3e9-4f0c-be7d-6ffd09757c50": {
+                        "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44": {
                             "position": [
                                 0,
                                 10
@@ -234,7 +238,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "09698a66-ef65-4c13-84fb-699f40bc87c3": {
+                        "32282f03-fac1-440b-9561-8d37cbaa8ae8": {
                             "position": [
                                 9,
                                 6
@@ -245,7 +249,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "5f77d60d-e80a-43de-bdef-f148331596e4": {
+                        "fd0081d7-40ec-43d7-827e-25fa9ce8a873": {
                             "position": [
                                 0,
                                 5
@@ -256,7 +260,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "1103ca40-5bd6-4609-9d5b-66935d1d6764": {
+                        "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb": {
                             "position": [
                                 13,
                                 5
@@ -267,7 +271,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "40208280-4bc3-41ae-9fc1-bc90b8162017": {
+                        "39b25a7b-bd8b-4a32-b736-cb116d63e15c": {
                             "position": [
                                 28,
                                 5
@@ -278,7 +282,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "99efe008-353d-4f9a-8d72-fbf2bf546981": {
+                        "7d818b30-eb56-4107-a3e3-bc02753e8c37": {
                             "position": [
                                 0,
                                 0
@@ -298,15 +302,414 @@
                 25,
                 25
             ],
-            "modified": 1556459517777,
-            "location": "3d635037-4e95-4273-94a3-2d86b82a183d",
-            "persisted": 1556459517777,
+            "modified": 1560009043247,
+            "location": "72621c65-3482-4229-9487-51044183f951",
+            "persisted": 1560009043247,
             "identifier": {
                 "namespace": "",
-                "key": "9ac4dd6c-46dc-4efe-91bd-1e979b715765"
+                "key": "d99a80c1-25d0-4654-87a2-e6d9267e807c"
             }
         },
-        "c0a1d2c7-9d3d-48ea-a733-1a11cfd6e831": {
+        "734f8cd2-232e-469b-819f-e7d29a2cc3c3": {
+            "composition": [
+                {
+                    "namespace": "",
+                    "key": "4d06adbd-65d2-467c-ad25-f6aadb1c83ca"
+                },
+                {
+                    "namespace": "",
+                    "key": "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd"
+                },
+                {
+                    "namespace": "",
+                    "key": "778c0bc4-d006-4142-8d3c-d138bc0827eb"
+                },
+                {
+                    "namespace": "",
+                    "key": "89a0b856-3668-46be-a39b-520f664ee9e5"
+                },
+                {
+                    "namespace": "",
+                    "key": "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1"
+                },
+                {
+                    "namespace": "",
+                    "key": "bdfdad51-f591-4547-bddb-e8331d8ddf94"
+                },
+                {
+                    "namespace": "",
+                    "key": "6a2819b9-bb60-4422-92b7-dcab7cade53f"
+                },
+                {
+                    "namespace": "",
+                    "key": "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924"
+                },
+                {
+                    "namespace": "",
+                    "key": "782b707f-e532-4b1b-832a-cd2e09158f42"
+                },
+                {
+                    "namespace": "",
+                    "key": "795270d4-7db2-46ca-94a9-8d037cb392fd"
+                },
+                {
+                    "namespace": "",
+                    "key": "3f5f8691-ecbe-4e8d-9163-f5cd58874083"
+                },
+                {
+                    "namespace": "",
+                    "key": "3db799f4-ba1e-43df-b8ab-91e5da59a986"
+                },
+                {
+                    "namespace": "",
+                    "key": "a07e12fe-c0c3-413c-b607-984f4287c9c6"
+                },
+                {
+                    "namespace": "",
+                    "key": "e0298862-4984-465f-9ab9-5fcc4be602c6"
+                },
+                {
+                    "namespace": "",
+                    "key": "e5ec6502-1146-4c2d-b965-4f79f1d95bf3"
+                },
+                {
+                    "namespace": "",
+                    "key": "603ff28f-9a22-4e58-8b52-84a6c53eef21"
+                },
+                {
+                    "namespace": "",
+                    "key": "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb"
+                },
+                {
+                    "namespace": "",
+                    "key": "e12e3504-5f5d-490b-ae1a-fac3825ec8a6"
+                },
+                {
+                    "namespace": "",
+                    "key": "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6"
+                },
+                {
+                    "namespace": "",
+                    "key": "847d676c-e746-438d-bcfa-5d524d73bca9"
+                },
+                {
+                    "namespace": "",
+                    "key": "fa33478f-72ef-4471-a8a4-b4d63bd39cf2"
+                },
+                {
+                    "namespace": "",
+                    "key": "e630d771-afe5-45d7-997a-dbf50f3be24c"
+                }
+            ],
+            "configuration": {
+                "layout": {
+                    "panels": {
+                        "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "778c0bc4-d006-4142-8d3c-d138bc0827eb": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "89a0b856-3668-46be-a39b-520f664ee9e5": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "bdfdad51-f591-4547-bddb-e8331d8ddf94": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "6a2819b9-bb60-4422-92b7-dcab7cade53f": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "782b707f-e532-4b1b-832a-cd2e09158f42": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "795270d4-7db2-46ca-94a9-8d037cb392fd": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "3f5f8691-ecbe-4e8d-9163-f5cd58874083": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "3db799f4-ba1e-43df-b8ab-91e5da59a986": {
+                            "position": [
+                                0,
+                                4
+                            ],
+                            "dimensions": [
+                                35,
+                                16
+                            ],
+                            "hasFrame": false
+                        },
+                        "4d06adbd-65d2-467c-ad25-f6aadb1c83ca": {
+                            "position": [
+                                0,
+                                0
+                            ],
+                            "dimensions": [
+                                35,
+                                4
+                            ],
+                            "hasFrame": false
+                        },
+                        "a07e12fe-c0c3-413c-b607-984f4287c9c6": {
+                            "position": [
+                                28,
+                                11
+                            ],
+                            "dimensions": [
+                                6,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "e630d771-afe5-45d7-997a-dbf50f3be24c": {
+                            "position": [
+                                12,
+                                16
+                            ],
+                            "dimensions": [
+                                7,
+                                4
+                            ],
+                            "hasFrame": false
+                        },
+                        "e0298862-4984-465f-9ab9-5fcc4be602c6": {
+                            "position": [
+                                28,
+                                5
+                            ],
+                            "dimensions": [
+                                6,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "e5ec6502-1146-4c2d-b965-4f79f1d95bf3": {
+                            "position": [
+                                28,
+                                8
+                            ],
+                            "dimensions": [
+                                6,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb": {
+                            "position": [
+                                28,
+                                14
+                            ],
+                            "dimensions": [
+                                6,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "e12e3504-5f5d-490b-ae1a-fac3825ec8a6": {
+                            "position": [
+                                28,
+                                17
+                            ],
+                            "dimensions": [
+                                6,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "603ff28f-9a22-4e58-8b52-84a6c53eef21": {
+                            "position": [
+                                1,
+                                17
+                            ],
+                            "dimensions": [
+                                5,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6": {
+                            "position": [
+                                7,
+                                17
+                            ],
+                            "dimensions": [
+                                5,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "847d676c-e746-438d-bcfa-5d524d73bca9": {
+                            "position": [
+                                7,
+                                4
+                            ],
+                            "dimensions": [
+                                5,
+                                2
+                            ],
+                            "hasFrame": false
+                        },
+                        "fa33478f-72ef-4471-a8a4-b4d63bd39cf2": {
+                            "position": [
+                                7,
+                                7
+                            ],
+                            "dimensions": [
+                                5,
+                                2
+                            ],
+                            "hasFrame": false
+                        }
+                    }
+                }
+            },
+            "name": "Ship status",
+            "type": "layout",
+            "modified": 1560010287125,
+            "location": "72621c65-3482-4229-9487-51044183f951",
+            "persisted": 1560010287125,
+            "identifier": {
+                "namespace": "",
+                "key": "734f8cd2-232e-469b-819f-e7d29a2cc3c3"
+            }
+        },
+        "c6c68ff2-fca8-40c2-ad29-33615e790150": {
+            "name": "Fault status",
+            "type": "example.page",
+            "url": "http://localhost:8082/#/tasks",
+            "modified": 1560009043246,
+            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
+            "persisted": 1560009043246,
+            "identifier": {
+                "namespace": "",
+                "key": "c6c68ff2-fca8-40c2-ad29-33615e790150"
+            }
+        },
+        "cf970ebd-112f-4d9c-b3bb-88db17990ea4": {
+            "name": "Fault description",
+            "type": "example.page",
+            "url": "http://localhost:8082/#/taskDetails",
+            "modified": 1560009043247,
+            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
+            "persisted": 1560009043247,
+            "identifier": {
+                "namespace": "",
+                "key": "cf970ebd-112f-4d9c-b3bb-88db17990ea4"
+            }
+        },
+        "ee29d371-206e-47d9-9193-b730632ba5c3": {
+            "name": "Fault location",
+            "type": "example.page",
+            "url": "http://localhost:8082/#/taskMap",
+            "modified": 1560009043247,
+            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
+            "persisted": 1560009043247,
+            "identifier": {
+                "namespace": "",
+                "key": "ee29d371-206e-47d9-9193-b730632ba5c3"
+            }
+        },
+        "58237a19-6501-4fff-83b8-95cd29e1516b": {
+            "name": "Ship faults title",
+            "type": "example.image",
+            "url": "static/title-ship-faults.png",
+            "size": "contain",
+            "position": "center center",
+            "modified": 1560009043247,
+            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
+            "persisted": 1560009043247,
+            "identifier": {
+                "namespace": "",
+                "key": "58237a19-6501-4fff-83b8-95cd29e1516b"
+            }
+        },
+        "f8f12225-b76e-42fb-92a8-b28ea224868a": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -420,15 +823,15 @@
             "telemetry": {},
             "name": "Temperature flow",
             "type": "summary-widget",
-            "modified": 1556396266467,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556396266467,
+            "modified": 1560009043251,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043251,
             "identifier": {
                 "namespace": "",
-                "key": "c0a1d2c7-9d3d-48ea-a733-1a11cfd6e831"
+                "key": "f8f12225-b76e-42fb-92a8-b28ea224868a"
             }
         },
-        "6e73e1e6-3c71-450f-b6ab-a5d1c49d3882": {
+        "5ef52718-f9b6-4d7e-af1e-2495e8dc2047": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -542,15 +945,15 @@
             "telemetry": {},
             "name": "Temperature indicator",
             "type": "summary-widget",
-            "modified": 1556477920317,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556477920317,
+            "modified": 1560009043253,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043253,
             "identifier": {
                 "namespace": "",
-                "key": "6e73e1e6-3c71-450f-b6ab-a5d1c49d3882"
+                "key": "5ef52718-f9b6-4d7e-af1e-2495e8dc2047"
             }
         },
-        "e1ff954f-bf7e-4b3d-b61e-9bbdd5efdda5": {
+        "17c3873e-1368-404f-92e1-49625aa26d4f": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -581,15 +984,15 @@
             },
             "name": "Temperature Plot",
             "type": "telemetry.plot.overlay",
-            "modified": 1556396266478,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556396266478,
+            "modified": 1560009043258,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043258,
             "identifier": {
                 "namespace": "",
-                "key": "e1ff954f-bf7e-4b3d-b61e-9bbdd5efdda5"
+                "key": "17c3873e-1368-404f-92e1-49625aa26d4f"
             }
         },
-        "f24c5307-41ca-4b70-8d0c-8bc520041b10": {
+        "aae41883-a76f-47bf-bded-903c9eac747c": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -703,15 +1106,15 @@
             "telemetry": {},
             "name": "Coherence flow",
             "type": "summary-widget",
-            "modified": 1556396266483,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556396266483,
+            "modified": 1560009043264,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043264,
             "identifier": {
                 "namespace": "",
-                "key": "f24c5307-41ca-4b70-8d0c-8bc520041b10"
+                "key": "aae41883-a76f-47bf-bded-903c9eac747c"
             }
         },
-        "3bcab4ef-e3e9-4f0c-be7d-6ffd09757c50": {
+        "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -825,15 +1228,15 @@
             "telemetry": {},
             "name": "Coherence indicator",
             "type": "summary-widget",
-            "modified": 1556480105367,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556480105367,
+            "modified": 1560009043270,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043270,
             "identifier": {
                 "namespace": "",
-                "key": "3bcab4ef-e3e9-4f0c-be7d-6ffd09757c50"
+                "key": "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44"
             }
         },
-        "09698a66-ef65-4c13-84fb-699f40bc87c3": {
+        "32282f03-fac1-440b-9561-8d37cbaa8ae8": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -951,15 +1354,15 @@
             "telemetry": {},
             "name": "Jump flow",
             "type": "summary-widget",
-            "modified": 1556399149345,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556399149345,
+            "modified": 1560009043275,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043275,
             "identifier": {
                 "namespace": "",
-                "key": "09698a66-ef65-4c13-84fb-699f40bc87c3"
+                "key": "32282f03-fac1-440b-9561-8d37cbaa8ae8"
             }
         },
-        "5f77d60d-e80a-43de-bdef-f148331596e4": {
+        "fd0081d7-40ec-43d7-827e-25fa9ce8a873": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1309,15 +1712,15 @@
             "telemetry": {},
             "name": "Jump countdown",
             "type": "summary-widget",
-            "modified": 1556477654394,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556477654394,
+            "modified": 1560009043281,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043281,
             "identifier": {
                 "namespace": "",
-                "key": "5f77d60d-e80a-43de-bdef-f148331596e4"
+                "key": "fd0081d7-40ec-43d7-827e-25fa9ce8a873"
             }
         },
-        "1103ca40-5bd6-4609-9d5b-66935d1d6764": {
+        "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1399,15 +1802,15 @@
             "telemetry": {},
             "name": "Cooldown indicator",
             "type": "summary-widget",
-            "modified": 1556477702130,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556477702130,
+            "modified": 1560009043289,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043289,
             "identifier": {
                 "namespace": "",
-                "key": "1103ca40-5bd6-4609-9d5b-66935d1d6764"
+                "key": "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb"
             }
         },
-        "40208280-4bc3-41ae-9fc1-bc90b8162017": {
+        "39b25a7b-bd8b-4a32-b736-cb116d63e15c": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1681,78 +2084,2357 @@
             "telemetry": {},
             "name": "Status indicator",
             "type": "summary-widget",
-            "modified": 1556477990704,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556477990704,
+            "modified": 1560009043295,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043295,
             "identifier": {
                 "namespace": "",
-                "key": "40208280-4bc3-41ae-9fc1-bc90b8162017"
+                "key": "39b25a7b-bd8b-4a32-b736-cb116d63e15c"
             }
         },
-        "99efe008-353d-4f9a-8d72-fbf2bf546981": {
+        "7d818b30-eb56-4107-a3e3-bc02753e8c37": {
             "name": "Jump drive title",
             "type": "example.image",
             "url": "static/title-jump-drive.png",
             "size": "contain",
             "position": "center center",
-            "modified": 1556459438930,
-            "location": "9ac4dd6c-46dc-4efe-91bd-1e979b715765",
-            "persisted": 1556459438930,
+            "modified": 1560009043302,
+            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
+            "persisted": 1560009043302,
             "identifier": {
                 "namespace": "",
-                "key": "99efe008-353d-4f9a-8d72-fbf2bf546981"
+                "key": "7d818b30-eb56-4107-a3e3-bc02753e8c37"
             }
         },
-        "219828a2-c7db-4c3d-9fc2-d6339646b03a": {
-            "name": "Fault status",
-            "type": "example.page",
-            "url": "http://localhost:8082/#/tasks",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "219828a2-c7db-4c3d-9fc2-d6339646b03a"
-            }
-        },
-        "b60bb39d-8b6e-4345-96fb-c15ff2652167": {
-            "name": "Fault description",
-            "type": "example.page",
-            "url": "http://localhost:8082/#/taskDetails",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "b60bb39d-8b6e-4345-96fb-c15ff2652167"
-            }
-        },
-        "30d8e3c1-3edd-424c-93a2-bf37b0918f1c": {
-            "name": "Fault location",
-            "type": "example.page",
-            "url": "http://localhost:8082/#/taskMap",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
-            "identifier": {
-                "namespace": "",
-                "key": "30d8e3c1-3edd-424c-93a2-bf37b0918f1c"
-            }
-        },
-        "a23b9c61-2a8c-43e5-9eea-bfe4b34130be": {
-            "name": "Ship faults title",
+        "4d06adbd-65d2-467c-ad25-f6aadb1c83ca": {
+            "name": "Ship status title",
             "type": "example.image",
-            "url": "static/title-ship-faults.png",
+            "url": "static/title-ship-status.png",
             "size": "contain",
             "position": "center center",
-            "modified": 1556396266443,
-            "location": "3674c39e-8770-44ec-b46e-0b14be334ed6",
-            "persisted": 1556396266443,
+            "modified": 1560009043311,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043311,
             "identifier": {
                 "namespace": "",
-                "key": "a23b9c61-2a8c-43e5-9eea-bfe4b34130be"
+                "key": "4d06adbd-65d2-467c-ad25-f6aadb1c83ca"
+            }
+        },
+        "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.reactor"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Default",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/ship-map-base.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Base map",
+            "type": "summary-widget",
+            "modified": 1560009043312,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043312,
+            "identifier": {
+                "namespace": "",
+                "key": "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd"
+            }
+        },
+        "778c0bc4-d006-4142-8d3c-d138bc0827eb": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.reactor"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Reactor health's Reactor health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.reactor",
+                                "key": "reactorHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/reactor-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Reactor health's Reactor health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.reactor",
+                                "key": "reactorHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/reactor-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of reactor status",
+            "type": "summary-widget",
+            "modified": 1560009043318,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043318,
+            "identifier": {
+                "namespace": "",
+                "key": "778c0bc4-d006-4142-8d3c-d138bc0827eb"
+            }
+        },
+        "89a0b856-3668-46be-a39b-520f664ee9e5": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.impulse"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when impulse health's impulse health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.impulse",
+                                "key": "impulseHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/impulse-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when impulse health's impulse health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.impulse",
+                                "key": "impulseHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/impulse-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of impulse engine status",
+            "type": "summary-widget",
+            "modified": 1560009043324,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043324,
+            "identifier": {
+                "namespace": "",
+                "key": "89a0b856-3668-46be-a39b-520f664ee9e5"
+            }
+        },
+        "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.maneuver"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when maneuver health's maneuver health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.maneuver",
+                                "key": "maneuverHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/maneuver-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when maneuver health's maneuver health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.maneuver",
+                                "key": "maneuverHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/maneuver-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of maneuvering status",
+            "type": "summary-widget",
+            "modified": 1560009043329,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043329,
+            "identifier": {
+                "namespace": "",
+                "key": "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1"
+            }
+        },
+        "bdfdad51-f591-4547-bddb-e8331d8ddf94": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.frontshield"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when frontshield health's frontshield health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.frontshield",
+                                "key": "frontshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/frontshield-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when frontshield health's frontshield health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.frontshield",
+                                "key": "frontshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/frontshield-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of front shield generator status",
+            "type": "summary-widget",
+            "modified": 1560009043335,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043335,
+            "identifier": {
+                "namespace": "",
+                "key": "bdfdad51-f591-4547-bddb-e8331d8ddf94"
+            }
+        },
+        "6a2819b9-bb60-4422-92b7-dcab7cade53f": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.rearshield"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when rearshield health's rearshield health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.rearshield",
+                                "key": "rearshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/rearshield-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when rearshield health's rearshield health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.rearshield",
+                                "key": "rearshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/rearshield-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of rear shield generator status",
+            "type": "summary-widget",
+            "modified": 1560009043341,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043341,
+            "identifier": {
+                "namespace": "",
+                "key": "6a2819b9-bb60-4422-92b7-dcab7cade53f"
+            }
+        },
+        "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.missilesystem"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when missilesystem health's missilesystem health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.missilesystem",
+                                "key": "missilesystemHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/missilesystem-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when missilesystem health's missilesystem health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.missilesystem",
+                                "key": "missilesystemHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/missilesystem-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of missile system status",
+            "type": "summary-widget",
+            "modified": 1560009043347,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043347,
+            "identifier": {
+                "namespace": "",
+                "key": "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924"
+            }
+        },
+        "782b707f-e532-4b1b-832a-cd2e09158f42": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.beamweapons"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when beamweapons health's beamweapons health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.beamweapons",
+                                "key": "beamweaponsHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/beamweapons-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when beamweapons health's beamweapons health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.beamweapons",
+                                "key": "beamweaponsHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/beamweapons-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of beam weapons status",
+            "type": "summary-widget",
+            "modified": 1560009043352,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043352,
+            "identifier": {
+                "namespace": "",
+                "key": "782b707f-e532-4b1b-832a-cd2e09158f42"
+            }
+        },
+        "795270d4-7db2-46ca-94a9-8d037cb392fd": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.lifesupport"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when lifesupport health's lifesupport health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.lifesupport",
+                                "key": "lifesupportHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/lifesupport-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when lifesupport health's lifesupport health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.lifesupport",
+                                "key": "lifesupportHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/lifesupport-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of life support status",
+            "type": "summary-widget",
+            "modified": 1560009043358,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043358,
+            "identifier": {
+                "namespace": "",
+                "key": "795270d4-7db2-46ca-94a9-8d037cb392fd"
+            }
+        },
+        "3f5f8691-ecbe-4e8d-9163-f5cd58874083": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.hull"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when hull health's hull health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.hull",
+                                "key": "hullHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/hull-damaged.png"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when hull health's hull health  < 15  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.hull",
+                                "key": "hullHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    15
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/flashing/hull-critical.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Map of hull status",
+            "type": "summary-widget",
+            "modified": 1560009043364,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043364,
+            "identifier": {
+                "namespace": "",
+                "key": "3f5f8691-ecbe-4e8d-9163-f5cd58874083"
+            }
+        },
+        "3db799f4-ba1e-43df-b8ab-91e5da59a986": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.reactor"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Default",
+                        "label": "",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#ffffff",
+                            "background-color": "rgba(0,0,0,0)",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "backgroundImage": "static/ship-map-top.png"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Top map",
+            "type": "summary-widget",
+            "modified": 1560009043369,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043369,
+            "identifier": {
+                "namespace": "",
+                "key": "3db799f4-ba1e-43df-b8ab-91e5da59a986"
+            }
+        },
+        "a07e12fe-c0c3-413c-b607-984f4287c9c6": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.reactor"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.reactor.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.reactor"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Reactor:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{reactorHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{reactorStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Reactor:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{reactorHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{reactorStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Reactor health's Reactor health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.reactor",
+                                "key": "reactorHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Reactor:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{reactorHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{reactorStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Reactor health's Reactor health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.reactor",
+                                "key": "reactorHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Reactor status",
+            "type": "summary-widget",
+            "modified": 1560009043375,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043375,
+            "identifier": {
+                "namespace": "",
+                "key": "a07e12fe-c0c3-413c-b607-984f4287c9c6"
+            }
+        },
+        "e0298862-4984-465f-9ab9-5fcc4be602c6": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.impulse"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.impulse.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.impulse"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Impulse engine:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{impulseHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{impulseStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Impulse engine:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{impulseHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{impulseStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when impulse health's impulse health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.impulse",
+                                "key": "impulseHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Impulse engine:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{impulseHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{impulseStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when impulse health's impulse health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.impulse",
+                                "key": "impulseHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Impulse engine status",
+            "type": "summary-widget",
+            "modified": 1560009043381,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043381,
+            "identifier": {
+                "namespace": "",
+                "key": "e0298862-4984-465f-9ab9-5fcc4be602c6"
+            }
+        },
+        "e5ec6502-1146-4c2d-b965-4f79f1d95bf3": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.maneuver"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.maneuver.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.reactor"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Maneuvering:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{maneuverHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{maneuverStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Maneuvering:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{maneuverHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{maneuverStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when maneuver health's maneuver health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.maneuver",
+                                "key": "maneuverHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Maneuvering:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{maneuverHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{maneuverStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when maneuver health's maneuver health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.maneuver",
+                                "key": "maneuverHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Maneuvering status",
+            "type": "summary-widget",
+            "modified": 1560009043387,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043387,
+            "identifier": {
+                "namespace": "",
+                "key": "e5ec6502-1146-4c2d-b965-4f79f1d95bf3"
+            }
+        },
+        "603ff28f-9a22-4e58-8b52-84a6c53eef21": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.frontshield"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.frontshield.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.frontshield"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Front shields:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{frontshieldHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{frontshieldStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Front shields:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{frontshieldHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{frontshieldStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when frontshield health's frontshield health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.frontshield",
+                                "key": "frontshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Front shields:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{frontshieldHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{frontshieldStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when frontshield health's frontshield health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.frontshield",
+                                "key": "frontshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Front shields status",
+            "type": "summary-widget",
+            "modified": 1560009043393,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043393,
+            "identifier": {
+                "namespace": "",
+                "key": "603ff28f-9a22-4e58-8b52-84a6c53eef21"
+            }
+        },
+        "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.rearshield"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.rearshield.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.rearshield"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Rear shields:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{rearshieldHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{rearshieldStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Rear shields:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{rearshieldHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{rearshieldStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when rearshield health's rearshield health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.rearshield",
+                                "key": "rearshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Rear shields:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{rearshieldHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{rearshieldStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when rearshield health's rearshield health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.rearshield",
+                                "key": "rearshieldHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Rear shields status",
+            "type": "summary-widget",
+            "modified": 1560009043399,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043399,
+            "identifier": {
+                "namespace": "",
+                "key": "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb"
+            }
+        },
+        "e12e3504-5f5d-490b-ae1a-fac3825ec8a6": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.missilesystem"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.missilesystem.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.missilesystem"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Missile system:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{missilesystemHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{missilesystemStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Missile system:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{missilesystemHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{missilesystemStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when missilesystem health's missilesystem health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.missilesystem",
+                                "key": "missilesystemHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Missile system:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{missilesystemHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{missilesystemStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when missilesystem health's missilesystem health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.missilesystem",
+                                "key": "missilesystemHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Missile system status",
+            "type": "summary-widget",
+            "modified": 1560009043405,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043405,
+            "identifier": {
+                "namespace": "",
+                "key": "e12e3504-5f5d-490b-ae1a-fac3825ec8a6"
+            }
+        },
+        "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.beamweapons"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.beamweapons.status"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.beamweapons"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Beam weapons:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{beamweaponsHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{beamweaponsStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Beam weapons:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{beamweaponsHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{beamweaponsStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when beamweapons health's beamweapons health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.beamweapons",
+                                "key": "beamweaponsHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Beam weapons:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{beamweaponsHealth}}&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Temp: &lt;strong&gt;{{beamweaponsStatus}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when beamweapons health's beamweapons health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.beamweapons",
+                                "key": "beamweaponsHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": true,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Beam weapons status",
+            "type": "summary-widget",
+            "modified": 1560009043411,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043411,
+            "identifier": {
+                "namespace": "",
+                "key": "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6"
+            }
+        },
+        "847d676c-e746-438d-bcfa-5d524d73bca9": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.lifesupport"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Life support:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{lifesupportHealth}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Life support:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{lifesupportHealth}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Life support health's Life support health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.lifesupport",
+                                "key": "lifesupportHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Life support:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{lifesupportHealth}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Life support health's Life support health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.lifesupport",
+                                "key": "lifesupportHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Life support status",
+            "type": "summary-widget",
+            "modified": 1560011318050,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560011318050,
+            "identifier": {
+                "namespace": "",
+                "key": "847d676c-e746-438d-bcfa-5d524d73bca9"
+            }
+        },
+        "fa33478f-72ef-4471-a8a4-b4d63bd39cf2": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.health.hull"
+                }
+            ],
+            "configuration": {
+                "ruleOrder": [
+                    "default",
+                    "rule0",
+                    "rule1"
+                ],
+                "ruleConfigById": {
+                    "default": {
+                        "name": "Healthy",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Hull:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{hullHealth}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "default",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#4bd1c7",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "Default appearance for the widget",
+                        "conditions": [
+                            {
+                                "object": "",
+                                "key": "",
+                                "operation": "",
+                                "values": []
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false,
+                        "labelSize": "80%"
+                    },
+                    "rule0": {
+                        "name": "Damaged",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Hull:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{hullHealth}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule0",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ffce00",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Ship hull health's Ship hull health  < 90  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.hull",
+                                "key": "hullHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    90
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false,
+                        "labelSize": "80%"
+                    },
+                    "rule1": {
+                        "name": "Critical",
+                        "label": "&lt;span class=\"orbitron bold\" style=\"font-size:110%\"&gt;Hull:&lt;/span&gt;&lt;br&gt;&lt;span class=\"orbitron light\"&gt;Health: &lt;strong&gt;{{hullHealth}}&lt;/strong&gt;&lt;/span&gt;",
+                        "message": "",
+                        "id": "rule1",
+                        "icon": " ",
+                        "style": {
+                            "color": "#000000",
+                            "background-color": "#ed1c24",
+                            "border-color": "rgba(0,0,0,0)"
+                        },
+                        "description": "when Ship hull health's Ship hull health  < 20  ",
+                        "conditions": [
+                            {
+                                "object": "odysseus.taxonomy:prop.health.hull",
+                                "key": "hullHealth",
+                                "operation": "lessThan",
+                                "values": [
+                                    20
+                                ]
+                            }
+                        ],
+                        "jsCondition": "",
+                        "trigger": "any",
+                        "expanded": false,
+                        "labelSize": "80%"
+                    }
+                },
+                "testDataConfig": [
+                    {
+                        "object": "",
+                        "key": "",
+                        "value": ""
+                    }
+                ]
+            },
+            "openNewTab": "thisTab",
+            "telemetry": {},
+            "name": "Hull status",
+            "type": "summary-widget",
+            "modified": 1560011333278,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560011333278,
+            "identifier": {
+                "namespace": "",
+                "key": "fa33478f-72ef-4471-a8a4-b4d63bd39cf2"
+            }
+        },
+        "e630d771-afe5-45d7-997a-dbf50f3be24c": {
+            "composition": [
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.reactor"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.impulse"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.maneuver"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.frontshield"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.rearshield"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.missilesystem"
+                },
+                {
+                    "namespace": "odysseus.taxonomy",
+                    "key": "prop.temp.beamweapons"
+                }
+            ],
+            "configuration": {
+                "series": [
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.reactor"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.impulse"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.maneuver"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.frontshield"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.rearshield"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.missilesystem"
+                        }
+                    },
+                    {
+                        "identifier": {
+                            "namespace": "odysseus.taxonomy",
+                            "key": "prop.temp.beamweapons"
+                        }
+                    }
+                ],
+                "yAxis": {
+                    "autoscale": false,
+                    "range": {
+                        "min": 0,
+                        "max": 6000
+                    },
+                    "label": "Temperature"
+                },
+                "xAxis": {},
+                "legend": {
+                    "position": "hidden",
+                    "expandByDefault": false
+                }
+            },
+            "name": "Temperature Plot",
+            "type": "telemetry.plot.overlay",
+            "modified": 1560009043439,
+            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
+            "persisted": 1560009043439,
+            "identifier": {
+                "namespace": "",
+                "key": "e630d771-afe5-45d7-997a-dbf50f3be24c"
             }
         }
     },
-    "rootId": "3d635037-4e95-4273-94a3-2d86b82a183d"
+    "rootId": "72621c65-3482-4229-9487-51044183f951"
 }
