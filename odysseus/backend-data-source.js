@@ -16,6 +16,14 @@ function BackendTelemetryPlugin() {
         return m.values[0].key
     }
 
+    function scale(value, multiplier) {
+        if (multiplier && typeof value == 'number') {
+            return value * multiplier;
+        } else {
+            return value;
+        }
+    }
+
     return function (openmct) {
         var provider = {
             supportsSubscribe: function (domainObject) {
@@ -30,7 +38,7 @@ function BackendTelemetryPlugin() {
                 socket.on('dataUpdate', function(type,id,data){
                     const point = {
                         timestamp: Date.now(),
-                        [getKey(m)]: _.get(data, m.source.field) * (m.source.multiplier || 1),
+                        [getKey(m)]: scale(_.get(data, m.source.field), m.source.multiplier),
                         id: key
                     }
                     callback(point)
@@ -52,7 +60,7 @@ function BackendTelemetryPlugin() {
                         .then(value => {
                             return [{
                                 timestamp: Date.now(),
-                                [getKey(m)]: value * (m.source.multiplier || 1),
+                                [getKey(m)]: scale(value, m.source.multiplier),
                                 id: key
                             }]
                         })
