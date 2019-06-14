@@ -1,47 +1,47 @@
 {
     "openmct": {
-        "72621c65-3482-4229-9487-51044183f951": {
+        "451dfe05-2399-4097-8d9b-7a6739b60634": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d"
+                    "key": "67f51115-54ee-47dc-bf2e-d8c1e42bc417"
                 },
                 {
                     "namespace": "",
-                    "key": "d99a80c1-25d0-4654-87a2-e6d9267e807c"
+                    "key": "8719925a-cf09-465c-ae88-935efa851791"
                 },
                 {
                     "namespace": "",
-                    "key": "734f8cd2-232e-469b-819f-e7d29a2cc3c3"
+                    "key": "cb84eeab-473b-4461-8a5a-122c90828c90"
                 }
             ],
             "name": "ESS Odysseus",
             "type": "folder",
-            "modified": 1560009043228,
+            "modified": 1560525317460,
             "location": "mine",
-            "persisted": 1560009043228,
+            "persisted": 1560525317460,
             "identifier": {
                 "namespace": "",
-                "key": "72621c65-3482-4229-9487-51044183f951"
+                "key": "451dfe05-2399-4097-8d9b-7a6739b60634"
             }
         },
-        "1dc64108-aa4f-44c1-bfce-682a64a1cf3d": {
+        "67f51115-54ee-47dc-bf2e-d8c1e42bc417": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "c6c68ff2-fca8-40c2-ad29-33615e790150"
+                    "key": "b21936ae-65cd-4939-92a9-f65cd080846a"
                 },
                 {
                     "namespace": "",
-                    "key": "cf970ebd-112f-4d9c-b3bb-88db17990ea4"
+                    "key": "eea3a542-5d3b-4b54-8104-c8b2ac47fedd"
                 },
                 {
                     "namespace": "",
-                    "key": "ee29d371-206e-47d9-9193-b730632ba5c3"
+                    "key": "3b0a25e9-a415-4809-9c04-ccc4e3da20bb"
                 },
                 {
                     "namespace": "",
-                    "key": "58237a19-6501-4fff-83b8-95cd29e1516b"
+                    "key": "fc058578-3646-4290-9abc-23a39057f43f"
                 }
             ],
             "configuration": {
@@ -80,7 +80,7 @@
                             ],
                             "hasFrame": true
                         },
-                        "ee29d371-206e-47d9-9193-b730632ba5c3": {
+                        "3b0a25e9-a415-4809-9c04-ccc4e3da20bb": {
                             "position": [
                                 25,
                                 15
@@ -91,7 +91,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "c6c68ff2-fca8-40c2-ad29-33615e790150": {
+                        "b21936ae-65cd-4939-92a9-f65cd080846a": {
                             "position": [
                                 0,
                                 4
@@ -102,7 +102,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "cf970ebd-112f-4d9c-b3bb-88db17990ea4": {
+                        "eea3a542-5d3b-4b54-8104-c8b2ac47fedd": {
                             "position": [
                                 1,
                                 15
@@ -113,7 +113,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "58237a19-6501-4fff-83b8-95cd29e1516b": {
+                        "fc058578-3646-4290-9abc-23a39057f43f": {
                             "position": [
                                 0,
                                 0
@@ -129,61 +129,61 @@
             },
             "name": "Ship faults",
             "type": "layout",
-            "modified": 1560009043233,
-            "location": "72621c65-3482-4229-9487-51044183f951",
-            "persisted": 1560009043233,
+            "modified": 1560525317464,
+            "location": "451dfe05-2399-4097-8d9b-7a6739b60634",
+            "persisted": 1560525317464,
             "identifier": {
                 "namespace": "",
-                "key": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d"
+                "key": "67f51115-54ee-47dc-bf2e-d8c1e42bc417"
             }
         },
-        "d99a80c1-25d0-4654-87a2-e6d9267e807c": {
+        "8719925a-cf09-465c-ae88-935efa851791": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "f8f12225-b76e-42fb-92a8-b28ea224868a"
+                    "key": "2db68f37-4c03-48fd-986d-7c410dd26c32"
                 },
                 {
                     "namespace": "",
-                    "key": "5ef52718-f9b6-4d7e-af1e-2495e8dc2047"
+                    "key": "1c98ce87-6d0f-4af2-a999-b9bd385ced42"
                 },
                 {
                     "namespace": "",
-                    "key": "17c3873e-1368-404f-92e1-49625aa26d4f"
+                    "key": "6dde95aa-dc7a-404e-b19a-ef53d6552f0e"
                 },
                 {
                     "namespace": "",
-                    "key": "aae41883-a76f-47bf-bded-903c9eac747c"
+                    "key": "74115814-42c8-4725-a3c3-16a781c2a5e1"
                 },
                 {
                     "namespace": "",
-                    "key": "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44"
+                    "key": "fe164c3d-8937-4abf-a10d-a7ff9354636b"
                 },
                 {
                     "namespace": "",
-                    "key": "32282f03-fac1-440b-9561-8d37cbaa8ae8"
+                    "key": "3b4dd937-c1a3-435f-b180-eaecda9665ba"
                 },
                 {
                     "namespace": "",
-                    "key": "fd0081d7-40ec-43d7-827e-25fa9ce8a873"
+                    "key": "4141ca3b-b10e-46bf-a0a3-e56b6d4c0c0e"
                 },
                 {
                     "namespace": "",
-                    "key": "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb"
+                    "key": "05b98635-bd68-4ba4-b7ea-00e343d4c02a"
                 },
                 {
                     "namespace": "",
-                    "key": "39b25a7b-bd8b-4a32-b736-cb116d63e15c"
+                    "key": "382646b1-e2fd-4483-8b8f-696ddee18ea1"
                 },
                 {
                     "namespace": "",
-                    "key": "7d818b30-eb56-4107-a3e3-bc02753e8c37"
+                    "key": "a0be7901-a9e1-4904-9288-bdc4aeaaa713"
                 }
             ],
             "configuration": {
                 "layout": {
                     "panels": {
-                        "f8f12225-b76e-42fb-92a8-b28ea224868a": {
+                        "2db68f37-4c03-48fd-986d-7c410dd26c32": {
                             "position": [
                                 9,
                                 16
@@ -194,7 +194,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "5ef52718-f9b6-4d7e-af1e-2495e8dc2047": {
+                        "1c98ce87-6d0f-4af2-a999-b9bd385ced42": {
                             "position": [
                                 0,
                                 15
@@ -205,7 +205,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "17c3873e-1368-404f-92e1-49625aa26d4f": {
+                        "6dde95aa-dc7a-404e-b19a-ef53d6552f0e": {
                             "position": [
                                 0,
                                 19
@@ -216,7 +216,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "aae41883-a76f-47bf-bded-903c9eac747c": {
+                        "74115814-42c8-4725-a3c3-16a781c2a5e1": {
                             "position": [
                                 9,
                                 11
@@ -227,7 +227,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44": {
+                        "fe164c3d-8937-4abf-a10d-a7ff9354636b": {
                             "position": [
                                 0,
                                 10
@@ -238,7 +238,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "32282f03-fac1-440b-9561-8d37cbaa8ae8": {
+                        "3b4dd937-c1a3-435f-b180-eaecda9665ba": {
                             "position": [
                                 9,
                                 6
@@ -249,7 +249,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "fd0081d7-40ec-43d7-827e-25fa9ce8a873": {
+                        "4141ca3b-b10e-46bf-a0a3-e56b6d4c0c0e": {
                             "position": [
                                 0,
                                 5
@@ -260,7 +260,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb": {
+                        "05b98635-bd68-4ba4-b7ea-00e343d4c02a": {
                             "position": [
                                 13,
                                 5
@@ -271,7 +271,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "39b25a7b-bd8b-4a32-b736-cb116d63e15c": {
+                        "382646b1-e2fd-4483-8b8f-696ddee18ea1": {
                             "position": [
                                 28,
                                 5
@@ -282,7 +282,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "7d818b30-eb56-4107-a3e3-bc02753e8c37": {
+                        "a0be7901-a9e1-4904-9288-bdc4aeaaa713": {
                             "position": [
                                 0,
                                 0
@@ -302,109 +302,109 @@
                 25,
                 25
             ],
-            "modified": 1560009043247,
-            "location": "72621c65-3482-4229-9487-51044183f951",
-            "persisted": 1560009043247,
+            "modified": 1560525317472,
+            "location": "451dfe05-2399-4097-8d9b-7a6739b60634",
+            "persisted": 1560525317472,
             "identifier": {
                 "namespace": "",
-                "key": "d99a80c1-25d0-4654-87a2-e6d9267e807c"
+                "key": "8719925a-cf09-465c-ae88-935efa851791"
             }
         },
-        "734f8cd2-232e-469b-819f-e7d29a2cc3c3": {
+        "cb84eeab-473b-4461-8a5a-122c90828c90": {
             "composition": [
                 {
                     "namespace": "",
-                    "key": "4d06adbd-65d2-467c-ad25-f6aadb1c83ca"
+                    "key": "afa7f52d-6748-445a-9b01-0b263285e35b"
                 },
                 {
                     "namespace": "",
-                    "key": "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd"
+                    "key": "1bf51ec7-a07d-4a9a-a017-2963d6707ecf"
                 },
                 {
                     "namespace": "",
-                    "key": "778c0bc4-d006-4142-8d3c-d138bc0827eb"
+                    "key": "1b9ffc12-693e-4831-a3bc-e680efd89bf3"
                 },
                 {
                     "namespace": "",
-                    "key": "89a0b856-3668-46be-a39b-520f664ee9e5"
+                    "key": "2089e58f-6844-4b72-aa4d-f46d3e94bb75"
                 },
                 {
                     "namespace": "",
-                    "key": "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1"
+                    "key": "c9498508-5589-464c-b46b-f444e19f55fd"
                 },
                 {
                     "namespace": "",
-                    "key": "bdfdad51-f591-4547-bddb-e8331d8ddf94"
+                    "key": "614cae08-0434-43a7-9371-5303de52c01d"
                 },
                 {
                     "namespace": "",
-                    "key": "6a2819b9-bb60-4422-92b7-dcab7cade53f"
+                    "key": "12fe5791-fc20-4b7a-9b80-c555122bd550"
                 },
                 {
                     "namespace": "",
-                    "key": "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924"
+                    "key": "892f1116-13a8-495e-bb71-f3eb6611c420"
                 },
                 {
                     "namespace": "",
-                    "key": "782b707f-e532-4b1b-832a-cd2e09158f42"
+                    "key": "a04de460-8e33-48b2-bd62-155c44a91fb8"
                 },
                 {
                     "namespace": "",
-                    "key": "795270d4-7db2-46ca-94a9-8d037cb392fd"
+                    "key": "27c7aee9-92b4-470d-b8a5-727b8d32a029"
                 },
                 {
                     "namespace": "",
-                    "key": "3f5f8691-ecbe-4e8d-9163-f5cd58874083"
+                    "key": "a4e00f3e-3459-42c7-81e0-8fb4c8d25d8a"
                 },
                 {
                     "namespace": "",
-                    "key": "3db799f4-ba1e-43df-b8ab-91e5da59a986"
+                    "key": "8722ecbb-9528-4821-b452-440925340b9a"
                 },
                 {
                     "namespace": "",
-                    "key": "a07e12fe-c0c3-413c-b607-984f4287c9c6"
+                    "key": "9916cde8-bfc9-4a9f-b891-6cb5478e7796"
                 },
                 {
                     "namespace": "",
-                    "key": "e0298862-4984-465f-9ab9-5fcc4be602c6"
+                    "key": "7f634023-c088-4397-9882-b2b9ad4f007f"
                 },
                 {
                     "namespace": "",
-                    "key": "e5ec6502-1146-4c2d-b965-4f79f1d95bf3"
+                    "key": "8d4acf90-a9f0-4dc2-87af-ab33c66ea5f2"
                 },
                 {
                     "namespace": "",
-                    "key": "603ff28f-9a22-4e58-8b52-84a6c53eef21"
+                    "key": "b737e1b0-9ac4-432b-83ef-1ab7f764c4ce"
                 },
                 {
                     "namespace": "",
-                    "key": "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb"
+                    "key": "b0a67579-9d44-4c3d-a002-b57fdfef9954"
                 },
                 {
                     "namespace": "",
-                    "key": "e12e3504-5f5d-490b-ae1a-fac3825ec8a6"
+                    "key": "0d0d51d1-6c8a-4709-abc1-9d422faa6784"
                 },
                 {
                     "namespace": "",
-                    "key": "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6"
+                    "key": "29349ee2-12b4-448c-ae7d-733f6fdb1691"
                 },
                 {
                     "namespace": "",
-                    "key": "847d676c-e746-438d-bcfa-5d524d73bca9"
+                    "key": "11817d33-b004-4496-90d2-a3891ea8fb17"
                 },
                 {
                     "namespace": "",
-                    "key": "fa33478f-72ef-4471-a8a4-b4d63bd39cf2"
+                    "key": "eefd6c8f-db65-4198-a1c8-ed36fa3363cf"
                 },
                 {
                     "namespace": "",
-                    "key": "e630d771-afe5-45d7-997a-dbf50f3be24c"
+                    "key": "a96b38e5-d9cd-4e9b-af8e-d731dbb6b605"
                 }
             ],
             "configuration": {
                 "layout": {
                     "panels": {
-                        "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd": {
+                        "1bf51ec7-a07d-4a9a-a017-2963d6707ecf": {
                             "position": [
                                 0,
                                 4
@@ -415,7 +415,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "778c0bc4-d006-4142-8d3c-d138bc0827eb": {
+                        "1b9ffc12-693e-4831-a3bc-e680efd89bf3": {
                             "position": [
                                 0,
                                 4
@@ -426,7 +426,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "89a0b856-3668-46be-a39b-520f664ee9e5": {
+                        "2089e58f-6844-4b72-aa4d-f46d3e94bb75": {
                             "position": [
                                 0,
                                 4
@@ -437,7 +437,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1": {
+                        "c9498508-5589-464c-b46b-f444e19f55fd": {
                             "position": [
                                 0,
                                 4
@@ -448,7 +448,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "bdfdad51-f591-4547-bddb-e8331d8ddf94": {
+                        "614cae08-0434-43a7-9371-5303de52c01d": {
                             "position": [
                                 0,
                                 4
@@ -459,7 +459,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "6a2819b9-bb60-4422-92b7-dcab7cade53f": {
+                        "12fe5791-fc20-4b7a-9b80-c555122bd550": {
                             "position": [
                                 0,
                                 4
@@ -470,7 +470,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924": {
+                        "892f1116-13a8-495e-bb71-f3eb6611c420": {
                             "position": [
                                 0,
                                 4
@@ -481,7 +481,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "782b707f-e532-4b1b-832a-cd2e09158f42": {
+                        "a04de460-8e33-48b2-bd62-155c44a91fb8": {
                             "position": [
                                 0,
                                 4
@@ -492,7 +492,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "795270d4-7db2-46ca-94a9-8d037cb392fd": {
+                        "27c7aee9-92b4-470d-b8a5-727b8d32a029": {
                             "position": [
                                 0,
                                 4
@@ -503,7 +503,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "3f5f8691-ecbe-4e8d-9163-f5cd58874083": {
+                        "a4e00f3e-3459-42c7-81e0-8fb4c8d25d8a": {
                             "position": [
                                 0,
                                 4
@@ -514,7 +514,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "3db799f4-ba1e-43df-b8ab-91e5da59a986": {
+                        "8722ecbb-9528-4821-b452-440925340b9a": {
                             "position": [
                                 0,
                                 4
@@ -525,7 +525,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "4d06adbd-65d2-467c-ad25-f6aadb1c83ca": {
+                        "afa7f52d-6748-445a-9b01-0b263285e35b": {
                             "position": [
                                 0,
                                 0
@@ -536,7 +536,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "a07e12fe-c0c3-413c-b607-984f4287c9c6": {
+                        "9916cde8-bfc9-4a9f-b891-6cb5478e7796": {
                             "position": [
                                 28,
                                 11
@@ -547,18 +547,18 @@
                             ],
                             "hasFrame": false
                         },
-                        "e630d771-afe5-45d7-997a-dbf50f3be24c": {
+                        "a96b38e5-d9cd-4e9b-af8e-d731dbb6b605": {
                             "position": [
-                                12,
-                                16
+                                0,
+                                4
                             ],
                             "dimensions": [
-                                7,
-                                4
+                                8,
+                                5
                             ],
                             "hasFrame": false
                         },
-                        "e0298862-4984-465f-9ab9-5fcc4be602c6": {
+                        "7f634023-c088-4397-9882-b2b9ad4f007f": {
                             "position": [
                                 28,
                                 5
@@ -569,7 +569,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "e5ec6502-1146-4c2d-b965-4f79f1d95bf3": {
+                        "8d4acf90-a9f0-4dc2-87af-ab33c66ea5f2": {
                             "position": [
                                 28,
                                 8
@@ -580,7 +580,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb": {
+                        "b0a67579-9d44-4c3d-a002-b57fdfef9954": {
                             "position": [
                                 28,
                                 14
@@ -591,7 +591,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "e12e3504-5f5d-490b-ae1a-fac3825ec8a6": {
+                        "0d0d51d1-6c8a-4709-abc1-9d422faa6784": {
                             "position": [
                                 28,
                                 17
@@ -602,7 +602,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "603ff28f-9a22-4e58-8b52-84a6c53eef21": {
+                        "b737e1b0-9ac4-432b-83ef-1ab7f764c4ce": {
                             "position": [
                                 1,
                                 17
@@ -613,7 +613,7 @@
                             ],
                             "hasFrame": false
                         },
-                        "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6": {
+                        "29349ee2-12b4-448c-ae7d-733f6fdb1691": {
                             "position": [
                                 7,
                                 17
@@ -624,9 +624,9 @@
                             ],
                             "hasFrame": false
                         },
-                        "847d676c-e746-438d-bcfa-5d524d73bca9": {
+                        "11817d33-b004-4496-90d2-a3891ea8fb17": {
                             "position": [
-                                7,
+                                9,
                                 4
                             ],
                             "dimensions": [
@@ -635,9 +635,9 @@
                             ],
                             "hasFrame": false
                         },
-                        "fa33478f-72ef-4471-a8a4-b4d63bd39cf2": {
+                        "eefd6c8f-db65-4198-a1c8-ed36fa3363cf": {
                             "position": [
-                                7,
+                                9,
                                 7
                             ],
                             "dimensions": [
@@ -651,65 +651,65 @@
             },
             "name": "Ship status",
             "type": "layout",
-            "modified": 1560010287125,
-            "location": "72621c65-3482-4229-9487-51044183f951",
-            "persisted": 1560010287125,
+            "modified": 1560525498887,
+            "location": "451dfe05-2399-4097-8d9b-7a6739b60634",
+            "persisted": 1560525498887,
             "identifier": {
                 "namespace": "",
-                "key": "734f8cd2-232e-469b-819f-e7d29a2cc3c3"
+                "key": "cb84eeab-473b-4461-8a5a-122c90828c90"
             }
         },
-        "c6c68ff2-fca8-40c2-ad29-33615e790150": {
+        "b21936ae-65cd-4939-92a9-f65cd080846a": {
             "name": "Fault status",
             "type": "example.page",
             "url": "http://localhost:8082/#/tasks",
-            "modified": 1560009043246,
-            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
-            "persisted": 1560009043246,
+            "modified": 1560525317471,
+            "location": "67f51115-54ee-47dc-bf2e-d8c1e42bc417",
+            "persisted": 1560525317471,
             "identifier": {
                 "namespace": "",
-                "key": "c6c68ff2-fca8-40c2-ad29-33615e790150"
+                "key": "b21936ae-65cd-4939-92a9-f65cd080846a"
             }
         },
-        "cf970ebd-112f-4d9c-b3bb-88db17990ea4": {
+        "eea3a542-5d3b-4b54-8104-c8b2ac47fedd": {
             "name": "Fault description",
             "type": "example.page",
             "url": "http://localhost:8082/#/taskDetails",
-            "modified": 1560009043247,
-            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
-            "persisted": 1560009043247,
+            "modified": 1560525317472,
+            "location": "67f51115-54ee-47dc-bf2e-d8c1e42bc417",
+            "persisted": 1560525317472,
             "identifier": {
                 "namespace": "",
-                "key": "cf970ebd-112f-4d9c-b3bb-88db17990ea4"
+                "key": "eea3a542-5d3b-4b54-8104-c8b2ac47fedd"
             }
         },
-        "ee29d371-206e-47d9-9193-b730632ba5c3": {
+        "3b0a25e9-a415-4809-9c04-ccc4e3da20bb": {
             "name": "Fault location",
             "type": "example.page",
             "url": "http://localhost:8082/#/taskMap",
-            "modified": 1560009043247,
-            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
-            "persisted": 1560009043247,
+            "modified": 1560525317472,
+            "location": "67f51115-54ee-47dc-bf2e-d8c1e42bc417",
+            "persisted": 1560525317472,
             "identifier": {
                 "namespace": "",
-                "key": "ee29d371-206e-47d9-9193-b730632ba5c3"
+                "key": "3b0a25e9-a415-4809-9c04-ccc4e3da20bb"
             }
         },
-        "58237a19-6501-4fff-83b8-95cd29e1516b": {
+        "fc058578-3646-4290-9abc-23a39057f43f": {
             "name": "Ship faults title",
             "type": "example.image",
             "url": "static/title-ship-faults.png",
             "size": "contain",
             "position": "center center",
-            "modified": 1560009043247,
-            "location": "1dc64108-aa4f-44c1-bfce-682a64a1cf3d",
-            "persisted": 1560009043247,
+            "modified": 1560525317472,
+            "location": "67f51115-54ee-47dc-bf2e-d8c1e42bc417",
+            "persisted": 1560525317472,
             "identifier": {
                 "namespace": "",
-                "key": "58237a19-6501-4fff-83b8-95cd29e1516b"
+                "key": "fc058578-3646-4290-9abc-23a39057f43f"
             }
         },
-        "f8f12225-b76e-42fb-92a8-b28ea224868a": {
+        "2db68f37-4c03-48fd-986d-7c410dd26c32": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -823,15 +823,15 @@
             "telemetry": {},
             "name": "Temperature flow",
             "type": "summary-widget",
-            "modified": 1560009043251,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043251,
+            "modified": 1560525317477,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317477,
             "identifier": {
                 "namespace": "",
-                "key": "f8f12225-b76e-42fb-92a8-b28ea224868a"
+                "key": "2db68f37-4c03-48fd-986d-7c410dd26c32"
             }
         },
-        "5ef52718-f9b6-4d7e-af1e-2495e8dc2047": {
+        "1c98ce87-6d0f-4af2-a999-b9bd385ced42": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -945,15 +945,15 @@
             "telemetry": {},
             "name": "Temperature indicator",
             "type": "summary-widget",
-            "modified": 1560009043253,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043253,
+            "modified": 1560525317479,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317479,
             "identifier": {
                 "namespace": "",
-                "key": "5ef52718-f9b6-4d7e-af1e-2495e8dc2047"
+                "key": "1c98ce87-6d0f-4af2-a999-b9bd385ced42"
             }
         },
-        "17c3873e-1368-404f-92e1-49625aa26d4f": {
+        "6dde95aa-dc7a-404e-b19a-ef53d6552f0e": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -984,15 +984,15 @@
             },
             "name": "Temperature Plot",
             "type": "telemetry.plot.overlay",
-            "modified": 1560009043258,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043258,
+            "modified": 1560525317485,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317485,
             "identifier": {
                 "namespace": "",
-                "key": "17c3873e-1368-404f-92e1-49625aa26d4f"
+                "key": "6dde95aa-dc7a-404e-b19a-ef53d6552f0e"
             }
         },
-        "aae41883-a76f-47bf-bded-903c9eac747c": {
+        "74115814-42c8-4725-a3c3-16a781c2a5e1": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1106,15 +1106,15 @@
             "telemetry": {},
             "name": "Coherence flow",
             "type": "summary-widget",
-            "modified": 1560009043264,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043264,
+            "modified": 1560525317491,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317491,
             "identifier": {
                 "namespace": "",
-                "key": "aae41883-a76f-47bf-bded-903c9eac747c"
+                "key": "74115814-42c8-4725-a3c3-16a781c2a5e1"
             }
         },
-        "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44": {
+        "fe164c3d-8937-4abf-a10d-a7ff9354636b": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1228,15 +1228,15 @@
             "telemetry": {},
             "name": "Coherence indicator",
             "type": "summary-widget",
-            "modified": 1560009043270,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043270,
+            "modified": 1560525317497,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317497,
             "identifier": {
                 "namespace": "",
-                "key": "7eecb5e5-0b36-4f9b-a28b-aac7bc2ccf44"
+                "key": "fe164c3d-8937-4abf-a10d-a7ff9354636b"
             }
         },
-        "32282f03-fac1-440b-9561-8d37cbaa8ae8": {
+        "3b4dd937-c1a3-435f-b180-eaecda9665ba": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1354,15 +1354,15 @@
             "telemetry": {},
             "name": "Jump flow",
             "type": "summary-widget",
-            "modified": 1560009043275,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043275,
+            "modified": 1560525317502,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317502,
             "identifier": {
                 "namespace": "",
-                "key": "32282f03-fac1-440b-9561-8d37cbaa8ae8"
+                "key": "3b4dd937-c1a3-435f-b180-eaecda9665ba"
             }
         },
-        "fd0081d7-40ec-43d7-827e-25fa9ce8a873": {
+        "4141ca3b-b10e-46bf-a0a3-e56b6d4c0c0e": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1712,15 +1712,15 @@
             "telemetry": {},
             "name": "Jump countdown",
             "type": "summary-widget",
-            "modified": 1560009043281,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043281,
+            "modified": 1560525317507,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317507,
             "identifier": {
                 "namespace": "",
-                "key": "fd0081d7-40ec-43d7-827e-25fa9ce8a873"
+                "key": "4141ca3b-b10e-46bf-a0a3-e56b6d4c0c0e"
             }
         },
-        "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb": {
+        "05b98635-bd68-4ba4-b7ea-00e343d4c02a": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -1802,15 +1802,15 @@
             "telemetry": {},
             "name": "Cooldown indicator",
             "type": "summary-widget",
-            "modified": 1560009043289,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043289,
+            "modified": 1560525317513,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317513,
             "identifier": {
                 "namespace": "",
-                "key": "8660c0f2-716d-46ae-b3a3-c9a7ce9f36cb"
+                "key": "05b98635-bd68-4ba4-b7ea-00e343d4c02a"
             }
         },
-        "39b25a7b-bd8b-4a32-b736-cb116d63e15c": {
+        "382646b1-e2fd-4483-8b8f-696ddee18ea1": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2084,43 +2084,43 @@
             "telemetry": {},
             "name": "Status indicator",
             "type": "summary-widget",
-            "modified": 1560009043295,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043295,
+            "modified": 1560525317519,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317519,
             "identifier": {
                 "namespace": "",
-                "key": "39b25a7b-bd8b-4a32-b736-cb116d63e15c"
+                "key": "382646b1-e2fd-4483-8b8f-696ddee18ea1"
             }
         },
-        "7d818b30-eb56-4107-a3e3-bc02753e8c37": {
+        "a0be7901-a9e1-4904-9288-bdc4aeaaa713": {
             "name": "Jump drive title",
             "type": "example.image",
             "url": "static/title-jump-drive.png",
             "size": "contain",
             "position": "center center",
-            "modified": 1560009043302,
-            "location": "d99a80c1-25d0-4654-87a2-e6d9267e807c",
-            "persisted": 1560009043302,
+            "modified": 1560525317524,
+            "location": "8719925a-cf09-465c-ae88-935efa851791",
+            "persisted": 1560525317524,
             "identifier": {
                 "namespace": "",
-                "key": "7d818b30-eb56-4107-a3e3-bc02753e8c37"
+                "key": "a0be7901-a9e1-4904-9288-bdc4aeaaa713"
             }
         },
-        "4d06adbd-65d2-467c-ad25-f6aadb1c83ca": {
+        "afa7f52d-6748-445a-9b01-0b263285e35b": {
             "name": "Ship status title",
             "type": "example.image",
             "url": "static/title-ship-status.png",
             "size": "contain",
             "position": "center center",
-            "modified": 1560009043311,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043311,
+            "modified": 1560525317532,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317532,
             "identifier": {
                 "namespace": "",
-                "key": "4d06adbd-65d2-467c-ad25-f6aadb1c83ca"
+                "key": "afa7f52d-6748-445a-9b01-0b263285e35b"
             }
         },
-        "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd": {
+        "1bf51ec7-a07d-4a9a-a017-2963d6707ecf": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2170,15 +2170,15 @@
             "telemetry": {},
             "name": "Base map",
             "type": "summary-widget",
-            "modified": 1560009043312,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043312,
+            "modified": 1560525317532,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317532,
             "identifier": {
                 "namespace": "",
-                "key": "b76e8d9d-1e66-47bf-a2a1-2db4de2709bd"
+                "key": "1bf51ec7-a07d-4a9a-a017-2963d6707ecf"
             }
         },
-        "778c0bc4-d006-4142-8d3c-d138bc0827eb": {
+        "1b9ffc12-693e-4831-a3bc-e680efd89bf3": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2254,14 +2254,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when Reactor health's Reactor health  < 15  ",
+                        "description": "when Reactor health's Reactor health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.reactor",
                                 "key": "reactorHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2283,15 +2283,15 @@
             "telemetry": {},
             "name": "Map of reactor status",
             "type": "summary-widget",
-            "modified": 1560009043318,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043318,
+            "modified": 1560525317537,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317537,
             "identifier": {
                 "namespace": "",
-                "key": "778c0bc4-d006-4142-8d3c-d138bc0827eb"
+                "key": "1b9ffc12-693e-4831-a3bc-e680efd89bf3"
             }
         },
-        "89a0b856-3668-46be-a39b-520f664ee9e5": {
+        "2089e58f-6844-4b72-aa4d-f46d3e94bb75": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2367,14 +2367,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when impulse health's impulse health  < 15  ",
+                        "description": "when impulse health's impulse health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.impulse",
                                 "key": "impulseHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2396,15 +2396,15 @@
             "telemetry": {},
             "name": "Map of impulse engine status",
             "type": "summary-widget",
-            "modified": 1560009043324,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043324,
+            "modified": 1560525317543,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317543,
             "identifier": {
                 "namespace": "",
-                "key": "89a0b856-3668-46be-a39b-520f664ee9e5"
+                "key": "2089e58f-6844-4b72-aa4d-f46d3e94bb75"
             }
         },
-        "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1": {
+        "c9498508-5589-464c-b46b-f444e19f55fd": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2480,14 +2480,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when maneuver health's maneuver health  < 15  ",
+                        "description": "when maneuver health's maneuver health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.maneuver",
                                 "key": "maneuverHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2509,15 +2509,15 @@
             "telemetry": {},
             "name": "Map of maneuvering status",
             "type": "summary-widget",
-            "modified": 1560009043329,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043329,
+            "modified": 1560525317548,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317548,
             "identifier": {
                 "namespace": "",
-                "key": "caa234af-44fe-4aa1-bb06-c46f2f4bb3b1"
+                "key": "c9498508-5589-464c-b46b-f444e19f55fd"
             }
         },
-        "bdfdad51-f591-4547-bddb-e8331d8ddf94": {
+        "614cae08-0434-43a7-9371-5303de52c01d": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2593,14 +2593,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when frontshield health's frontshield health  < 15  ",
+                        "description": "when frontshield health's frontshield health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.frontshield",
                                 "key": "frontshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2622,15 +2622,15 @@
             "telemetry": {},
             "name": "Map of front shield generator status",
             "type": "summary-widget",
-            "modified": 1560009043335,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043335,
+            "modified": 1560525317553,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317553,
             "identifier": {
                 "namespace": "",
-                "key": "bdfdad51-f591-4547-bddb-e8331d8ddf94"
+                "key": "614cae08-0434-43a7-9371-5303de52c01d"
             }
         },
-        "6a2819b9-bb60-4422-92b7-dcab7cade53f": {
+        "12fe5791-fc20-4b7a-9b80-c555122bd550": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2706,14 +2706,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when rearshield health's rearshield health  < 15  ",
+                        "description": "when rearshield health's rearshield health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.rearshield",
                                 "key": "rearshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2735,15 +2735,15 @@
             "telemetry": {},
             "name": "Map of rear shield generator status",
             "type": "summary-widget",
-            "modified": 1560009043341,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043341,
+            "modified": 1560525317558,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317558,
             "identifier": {
                 "namespace": "",
-                "key": "6a2819b9-bb60-4422-92b7-dcab7cade53f"
+                "key": "12fe5791-fc20-4b7a-9b80-c555122bd550"
             }
         },
-        "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924": {
+        "892f1116-13a8-495e-bb71-f3eb6611c420": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2819,14 +2819,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when missilesystem health's missilesystem health  < 15  ",
+                        "description": "when missilesystem health's missilesystem health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.missilesystem",
                                 "key": "missilesystemHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2848,15 +2848,15 @@
             "telemetry": {},
             "name": "Map of missile system status",
             "type": "summary-widget",
-            "modified": 1560009043347,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043347,
+            "modified": 1560525317563,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317563,
             "identifier": {
                 "namespace": "",
-                "key": "ff4cc1d9-3eb5-4863-be3a-dbae81eb7924"
+                "key": "892f1116-13a8-495e-bb71-f3eb6611c420"
             }
         },
-        "782b707f-e532-4b1b-832a-cd2e09158f42": {
+        "a04de460-8e33-48b2-bd62-155c44a91fb8": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -2932,14 +2932,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when beamweapons health's beamweapons health  < 15  ",
+                        "description": "when beamweapons health's beamweapons health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.beamweapons",
                                 "key": "beamweaponsHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -2961,15 +2961,15 @@
             "telemetry": {},
             "name": "Map of beam weapons status",
             "type": "summary-widget",
-            "modified": 1560009043352,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043352,
+            "modified": 1560525317568,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317568,
             "identifier": {
                 "namespace": "",
-                "key": "782b707f-e532-4b1b-832a-cd2e09158f42"
+                "key": "a04de460-8e33-48b2-bd62-155c44a91fb8"
             }
         },
-        "795270d4-7db2-46ca-94a9-8d037cb392fd": {
+        "27c7aee9-92b4-470d-b8a5-727b8d32a029": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3045,14 +3045,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when lifesupport health's lifesupport health  < 15  ",
+                        "description": "when lifesupport health's lifesupport health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.lifesupport",
                                 "key": "lifesupportHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -3074,15 +3074,15 @@
             "telemetry": {},
             "name": "Map of life support status",
             "type": "summary-widget",
-            "modified": 1560009043358,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043358,
+            "modified": 1560525317573,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317573,
             "identifier": {
                 "namespace": "",
-                "key": "795270d4-7db2-46ca-94a9-8d037cb392fd"
+                "key": "27c7aee9-92b4-470d-b8a5-727b8d32a029"
             }
         },
-        "3f5f8691-ecbe-4e8d-9163-f5cd58874083": {
+        "a4e00f3e-3459-42c7-81e0-8fb4c8d25d8a": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3158,14 +3158,14 @@
                             "background-color": "rgba(0,0,0,0)",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when hull health's hull health  < 15  ",
+                        "description": "when hull health's hull health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.hull",
                                 "key": "hullHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    15
+                                    25
                                 ]
                             }
                         ],
@@ -3187,15 +3187,15 @@
             "telemetry": {},
             "name": "Map of hull status",
             "type": "summary-widget",
-            "modified": 1560009043364,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043364,
+            "modified": 1560525317578,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317578,
             "identifier": {
                 "namespace": "",
-                "key": "3f5f8691-ecbe-4e8d-9163-f5cd58874083"
+                "key": "a4e00f3e-3459-42c7-81e0-8fb4c8d25d8a"
             }
         },
-        "3db799f4-ba1e-43df-b8ab-91e5da59a986": {
+        "8722ecbb-9528-4821-b452-440925340b9a": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3245,15 +3245,15 @@
             "telemetry": {},
             "name": "Top map",
             "type": "summary-widget",
-            "modified": 1560009043369,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043369,
+            "modified": 1560525317583,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317583,
             "identifier": {
                 "namespace": "",
-                "key": "3db799f4-ba1e-43df-b8ab-91e5da59a986"
+                "key": "8722ecbb-9528-4821-b452-440925340b9a"
             }
         },
-        "a07e12fe-c0c3-413c-b607-984f4287c9c6": {
+        "9916cde8-bfc9-4a9f-b891-6cb5478e7796": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3367,15 +3367,15 @@
             "telemetry": {},
             "name": "Reactor status",
             "type": "summary-widget",
-            "modified": 1560009043375,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043375,
+            "modified": 1560525317588,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317588,
             "identifier": {
                 "namespace": "",
-                "key": "a07e12fe-c0c3-413c-b607-984f4287c9c6"
+                "key": "9916cde8-bfc9-4a9f-b891-6cb5478e7796"
             }
         },
-        "e0298862-4984-465f-9ab9-5fcc4be602c6": {
+        "7f634023-c088-4397-9882-b2b9ad4f007f": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3489,15 +3489,15 @@
             "telemetry": {},
             "name": "Impulse engine status",
             "type": "summary-widget",
-            "modified": 1560009043381,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043381,
+            "modified": 1560525317593,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317593,
             "identifier": {
                 "namespace": "",
-                "key": "e0298862-4984-465f-9ab9-5fcc4be602c6"
+                "key": "7f634023-c088-4397-9882-b2b9ad4f007f"
             }
         },
-        "e5ec6502-1146-4c2d-b965-4f79f1d95bf3": {
+        "8d4acf90-a9f0-4dc2-87af-ab33c66ea5f2": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3611,15 +3611,15 @@
             "telemetry": {},
             "name": "Maneuvering status",
             "type": "summary-widget",
-            "modified": 1560009043387,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043387,
+            "modified": 1560525317600,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317600,
             "identifier": {
                 "namespace": "",
-                "key": "e5ec6502-1146-4c2d-b965-4f79f1d95bf3"
+                "key": "8d4acf90-a9f0-4dc2-87af-ab33c66ea5f2"
             }
         },
-        "603ff28f-9a22-4e58-8b52-84a6c53eef21": {
+        "b737e1b0-9ac4-432b-83ef-1ab7f764c4ce": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3733,15 +3733,15 @@
             "telemetry": {},
             "name": "Front shields status",
             "type": "summary-widget",
-            "modified": 1560009043393,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043393,
+            "modified": 1560525317606,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317606,
             "identifier": {
                 "namespace": "",
-                "key": "603ff28f-9a22-4e58-8b52-84a6c53eef21"
+                "key": "b737e1b0-9ac4-432b-83ef-1ab7f764c4ce"
             }
         },
-        "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb": {
+        "b0a67579-9d44-4c3d-a002-b57fdfef9954": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3855,15 +3855,15 @@
             "telemetry": {},
             "name": "Rear shields status",
             "type": "summary-widget",
-            "modified": 1560009043399,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043399,
+            "modified": 1560525317611,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317611,
             "identifier": {
                 "namespace": "",
-                "key": "f900f0f8-5e55-4ea7-8b02-ad8eef084cbb"
+                "key": "b0a67579-9d44-4c3d-a002-b57fdfef9954"
             }
         },
-        "e12e3504-5f5d-490b-ae1a-fac3825ec8a6": {
+        "0d0d51d1-6c8a-4709-abc1-9d422faa6784": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -3977,15 +3977,15 @@
             "telemetry": {},
             "name": "Missile system status",
             "type": "summary-widget",
-            "modified": 1560009043405,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043405,
+            "modified": 1560525317618,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317618,
             "identifier": {
                 "namespace": "",
-                "key": "e12e3504-5f5d-490b-ae1a-fac3825ec8a6"
+                "key": "0d0d51d1-6c8a-4709-abc1-9d422faa6784"
             }
         },
-        "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6": {
+        "29349ee2-12b4-448c-ae7d-733f6fdb1691": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -4099,15 +4099,15 @@
             "telemetry": {},
             "name": "Beam weapons status",
             "type": "summary-widget",
-            "modified": 1560009043411,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043411,
+            "modified": 1560525317629,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317629,
             "identifier": {
                 "namespace": "",
-                "key": "071e1ec9-20c7-4ed2-b311-01cdb4e6f7b6"
+                "key": "29349ee2-12b4-448c-ae7d-733f6fdb1691"
             }
         },
-        "847d676c-e746-438d-bcfa-5d524d73bca9": {
+        "11817d33-b004-4496-90d2-a3891ea8fb17": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -4213,15 +4213,15 @@
             "telemetry": {},
             "name": "Life support status",
             "type": "summary-widget",
-            "modified": 1560011318050,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560011318050,
+            "modified": 1560525317634,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317634,
             "identifier": {
                 "namespace": "",
-                "key": "847d676c-e746-438d-bcfa-5d524d73bca9"
+                "key": "11817d33-b004-4496-90d2-a3891ea8fb17"
             }
         },
-        "fa33478f-72ef-4471-a8a4-b4d63bd39cf2": {
+        "eefd6c8f-db65-4198-a1c8-ed36fa3363cf": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -4327,15 +4327,15 @@
             "telemetry": {},
             "name": "Hull status",
             "type": "summary-widget",
-            "modified": 1560011333278,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560011333278,
+            "modified": 1560525317640,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317640,
             "identifier": {
                 "namespace": "",
-                "key": "fa33478f-72ef-4471-a8a4-b4d63bd39cf2"
+                "key": "eefd6c8f-db65-4198-a1c8-ed36fa3363cf"
             }
         },
-        "e630d771-afe5-45d7-997a-dbf50f3be24c": {
+        "a96b38e5-d9cd-4e9b-af8e-d731dbb6b605": {
             "composition": [
                 {
                     "namespace": "odysseus.taxonomy",
@@ -4427,14 +4427,14 @@
             },
             "name": "Temperature Plot",
             "type": "telemetry.plot.overlay",
-            "modified": 1560009043439,
-            "location": "734f8cd2-232e-469b-819f-e7d29a2cc3c3",
-            "persisted": 1560009043439,
+            "modified": 1560525317645,
+            "location": "cb84eeab-473b-4461-8a5a-122c90828c90",
+            "persisted": 1560525317645,
             "identifier": {
                 "namespace": "",
-                "key": "e630d771-afe5-45d7-997a-dbf50f3be24c"
+                "key": "a96b38e5-d9cd-4e9b-af8e-d731dbb6b605"
             }
         }
     },
-    "rootId": "72621c65-3482-4229-9487-51044183f951"
+    "rootId": "451dfe05-2399-4097-8d9b-7a6739b60634"
 }
