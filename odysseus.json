@@ -4157,14 +4157,14 @@
                             "background-color": "#ffce00",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when Life support health's Life support health  < 90  ",
+                        "description": "when Life support health's Life support health  < 70  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.lifesupport",
                                 "key": "lifesupportHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
