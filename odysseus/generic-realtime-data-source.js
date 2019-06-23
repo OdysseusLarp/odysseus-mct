@@ -1,5 +1,5 @@
 
-// FIXME:  backend-data-source.js and random-data-source.js are largely the same
+// TODO:  backend-data-source.js and random-data-source.js are largely the same
 
 /**
  * A generic implementation of real-time data source based on Odysseus dictionary.

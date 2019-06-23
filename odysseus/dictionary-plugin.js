@@ -60,10 +60,9 @@ var DictionaryPlugin = function (openmct) {
 
         openmct.composition.addProvider(compositionProvider);
 
-        // FIXME:  Remove/change this one later on
         openmct.types.addType('odysseus.telemetry', {
-            name: 'Odysseus Telemetry Point',  // FIXME: Naming
-            description: 'Example telemetry point from our happy tutorial.',
+            name: 'ESS Odysseus Telemetry Point',
+            description: 'ESS Odysseus data.',
             cssClass: 'icon-telemetry'
         });
     };
