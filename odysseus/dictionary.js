@@ -488,5 +488,38 @@ window.odysseusDictionary = {
                 "multiplier": 100,
             }
         },
+
+
+        // Plasma pressure (easter egg)
+        {
+            "name": "Plasma pressure",
+            "key": "prop.plasma.pressure",
+            "values": [
+                {
+                    "key": "plasmaPressure",
+                    "name": "Plasma pressure",
+                    "units": "MPa",
+                    "hints": {
+                        "range": 1
+                    }
+                },
+                {
+                    "key": "utc",
+                    "source": "timestamp",
+                    "name": "Timestamp",
+                    "format": "utc",
+                    "hints": {
+                        "domain": 1
+                    }
+                }
+            ],
+            "source": {
+                "method": "backend",
+                "type": "box",
+                "id": "drifting_value",
+                "field": "displayValue",
+            }
+        },
+        
     ]
 }
