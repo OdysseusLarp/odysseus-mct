@@ -124,7 +124,7 @@ When you go back to see `Ship status` the impulse engine health should be down t
 
 * Either use [HANSCA](https://github.com/OdysseusLarp/odysseus-HANSCA)
 * Or from [Admin UI datastores tab](http://localhost:8090/#/data)
-    - Choose `game` from dropdown
+    - Choose `game` or `box` from dropdown
     - Scroll to see which `Status` is `broken`
     - Click the one which is `broken`
     - Change `"status": "broken",` to `"status": "fixed",`
