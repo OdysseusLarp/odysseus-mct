@@ -105,3 +105,29 @@ To edit the default views within *ESS Odysseus* folder:
    `python3 -m json.tool tmp.json odysseus.json`
 
 Make sure that all iframes in odysseus-misc-ui have base URL `http://localhost:8082/`.
+
+
+## Breaking Odysseus Manually (for testing purposes)
+
+* Go to [Admin UI emptyepsilon tab](http://localhost:8090/#/emptyepsilon)
+* `Disable connection` and `Disable state synchronization` (otherwise it will sync back to full health since Empty Epsilon is not running)
+* Break things by `Update values` example
+    - Target type: systems
+    - Target: impulse
+    - Value type: health
+    - Value: 0.7
+    - `Set value`
+
+When you go back to see `Ship status` the impulse engine health should be down to 70% and `Ship faults` should now have `Malcunctions` listed
+
+## Fixing Odysseus Malfunctions (for testing purposes)
+
+* Either use [HANSCA](https://github.com/OdysseusLarp/odysseus-HANSCA)
+* Or from [Admin UI datastores tab](http://localhost:8090/#/data)
+    - Choose `game` from dropdown
+    - Scroll to see which `Status` is `broken`
+    - Click the one which is `broken`
+    - Change `"status": "broken",` to `"status": "fixed",`
+    - OK
+
+When you go back to `Ship faults` there should be some `Calibrations` going on.
