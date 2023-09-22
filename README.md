@@ -107,23 +107,40 @@ To edit the default views within *ESS Odysseus* folder:
 Make sure that all iframes in odysseus-misc-ui have base URL `http://localhost:8082/`.
 
 
+## Jumping the Odysseus (from Admin UI)
+
+* Make a jump [Admin UI Jump drive tab tab](http://localhost:8090/#/jump)
+    - `Move to calculating` --> OK
+    - `Approve jump` --> OK
+    - `Mark spectral calibration done` --> OK
+    - `Mark jump reactor done` --> OK
+    - `Next state (prep complete)` --> OK
+    - `Initiate jump` --> OK --> Wait 60 seconds
+    - If you want to break the ship click `Change to breaking jump` or `Change to minor breaking jump` --> OK
+    - `End jump` --> OK
+* To continue jumping 
+    - `Bypass engineer fixes` --> OK
+    - `Mark cooldown done` --> OK
+
+Now there should be stuff happening in `Jump drive state`, `Ship faults`and `Ship status`.
+
 ## Breaking Odysseus Manually (for testing purposes)
 
-* Go to [Admin UI emptyepsilon tab](http://localhost:8090/#/emptyepsilon)
-* `Disable connection` and `Disable state synchronization` (otherwise it will sync back to full health since Empty Epsilon is not running)
-* Break things by `Update values` example
-    - Target type: systems
-    - Target: impulse
-    - Value type: health
-    - Value: 0.7
-    - `Set value`
+* Go to [Admin UI Empty Epsilon tab](http://localhost:8090/#/emptyepsilon)
+    - `Disable connection` and `Disable state synchronization` (otherwise it will sync back to full health since Empty Epsilon is not running and it defaults to full health)
+    - Break things by `Update values` example
+        - Target type: systems
+        - Target: impulse
+        - Value type: health
+        - Value: 0.7
+        - `Set value`
 
 When you go back to see `Ship status` the impulse engine health should be down to 70% and `Ship faults` should now have `Malcunctions` listed
 
 ## Fixing Odysseus Malfunctions (for testing purposes)
 
 * Either use [HANSCA](https://github.com/OdysseusLarp/odysseus-HANSCA)
-* Or from [Admin UI datastores tab](http://localhost:8090/#/data)
+* Or from [Admin UI Data stores tab](http://localhost:8090/#/data)
     - Choose `game` or `box` from dropdown
     - Scroll to see which `Status` is `broken`
     - Click the one which is `broken`
