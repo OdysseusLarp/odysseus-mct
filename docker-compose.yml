@@ -1,0 +1,19 @@
+version: '2.1'
+
+services:
+  odysseus-mct:
+    image: odysseus-mct:latest
+    container_name: odysseus-mct
+    build:
+      dockerfile: Dockerfile
+    environment:
+      - PORT=8060
+      - WATCHPACK_POLLING=true
+    expose:
+      - 8060
+    ports:
+      - 8060:8060
+    volumes:
+      - ./:/app
+      - .:/workspace:cached
+      - /app/node_modules/
