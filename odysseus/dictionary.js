@@ -133,7 +133,7 @@ window.odysseusDictionary = {
     "name": "Example Spacecraft",
     "key": "sc",
     "backend": {
-        "url" : "https://apps.odysseuslarp.dev",
+        "url" : "https://live.odysseuslarp.dev",
         "username": "",
         "password": ""
     },
