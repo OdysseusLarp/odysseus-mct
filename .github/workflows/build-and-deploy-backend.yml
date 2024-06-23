@@ -25,7 +25,7 @@ jobs:
           mask-password: "true"
 
       - name: Hack to fix URL when deploying to production
-        run: sed -i 's/live.odysseuslarp.dev/apps.odysseuslarp.dev/g' odysseus/dictionary.js
+        run: sed -i 's/odysseus-server.live.odysseuslarp.dev/apps.odysseuslarp.dev/g' odysseus/dictionary.js
 
       - name: Build and push Odysseus MCT Docker image to Amazon ECR
         env:
