@@ -1,15 +1,36 @@
 
 function BackendTelemetryPlugin() {
     const METHOD = "backend"
+    const httpCache = new Map();
+    const websocketCache = new Map();
+    const subscriberCount = new Map();
 
     function fetchBackendField(type, id, field) {
+        const cacheKey = `${type}-${id}`;
+        const now = Date.now();
+
         let headers = new Headers()
         if (window.odysseusDictionary.backend.password) {
             headers.append('Authorization', 'Basic ' + btoa(window.odysseusDictionary.backend.username + ':' + window.odysseusDictionary.backend.password))
         }
-        return fetch(`${window.odysseusDictionary.backend.url}/data/${type}/${id}`, {headers: headers})
-        .then(response => response.json())
-        .then(json => _.get(json, field))
+
+        // Check if the data is in the cache and not stale
+        if (httpCache.has(cacheKey)) {
+            const cachedData = httpCache.get(cacheKey);
+            if (now - cachedData.timestamp < 1000) { // 1 second
+                return cachedData.promise.then(json => _.get(json, field));
+            } else {
+                httpCache.delete(cacheKey); // Remove stale data
+            }
+        }
+
+        const fetchPromise = fetch(`${window.odysseusDictionary.backend.url}/data/${type}/${id}`, { headers: headers })
+            .then(response => response.json());
+
+        // Store the promise in the cache immediately
+        httpCache.set(cacheKey, { timestamp: now, promise: fetchPromise });
+
+        return fetchPromise.then(json => _.get(json, field));
     }
 
     function getKey(m) {
@@ -34,18 +55,51 @@ function BackendTelemetryPlugin() {
             subscribe: function (domainObject, callback) {
                 const key = domainObject.identifier.key
                 const m = findDictionaryMeasurement(key)
-                const socket = io(`${window.odysseusDictionary.backend.url}/data?data=/data/${m.source.type}/${m.source.id}`);
-                socket.on('dataUpdate', function(type,id,data){
+                const type = m.source.type;
+                const id = m.source.id;
+                const cacheKey = `${type}-${id}`;
+
+                let socket;
+                if (websocketCache.has(cacheKey)) {
+                    socket = websocketCache.get(cacheKey);
+                } else {
+                    socket = io(`${window.odysseusDictionary.backend.url}/data?data=/data/${type}/${id}`);
+                    socket.on('disconnect', () => {
+                        websocketCache.delete(cacheKey);
+                        subscriberCount.delete(cacheKey);
+                    });
+                    websocketCache.set(cacheKey, socket);
+                }
+
+                function onDataUpdate(type, id, data) {
                     const point = {
                         timestamp: Date.now(),
                         [getKey(m)]: scale(_.get(data, m.source.field), m.source.multiplier),
                         id: key
-                    }
-                    callback(point)
-                })
-                return () => {
-                    socket.close()
+                    };
+                    callback(point);
                 }
+                socket.on('dataUpdate', onDataUpdate);
+
+                // Increment the subscriber count
+                subscriberCount.set(cacheKey, (subscriberCount.get(cacheKey) || 0) + 1);
+
+                // Cleanup function
+                return () => {
+                    // Decrement the subscriber count
+                    subscriberCount.set(cacheKey, subscriberCount.get(cacheKey) - 1);
+
+                    // Detach the event listener
+                    socket.off('dataUpdate', onDataUpdate);
+
+                    // Close the WebSocket connection if no subscribers are left
+                    if (subscriberCount.get(cacheKey) <= 0) {
+                        const socket = websocketCache.get(cacheKey);
+                        socket.close();
+                        websocketCache.delete(cacheKey);
+                        subscriberCount.delete(cacheKey);
+                    }
+                };
             },
             supportsRequest: function (domainObject) {
                 return this.supportsSubscribe(domainObject);
