@@ -71,14 +71,15 @@ function BackendTelemetryPlugin() {
                     websocketCache.set(cacheKey, socket);
                 }
 
-                socket.on('dataUpdate', function (type, id, data) {
+                function onDataUpdate(type, id, data) {
                     const point = {
                         timestamp: Date.now(),
                         [getKey(m)]: scale(_.get(data, m.source.field), m.source.multiplier),
                         id: key
                     };
                     callback(point);
-                });
+                }
+                socket.on('dataUpdate', onDataUpdate);
 
                 // Increment the subscriber count
                 subscriberCount.set(cacheKey, (subscriberCount.get(cacheKey) || 0) + 1);
@@ -87,6 +88,9 @@ function BackendTelemetryPlugin() {
                 return () => {
                     // Decrement the subscriber count
                     subscriberCount.set(cacheKey, subscriberCount.get(cacheKey) - 1);
+
+                    // Detach the event listener
+                    socket.off('dataUpdate', onDataUpdate);
 
                     // Close the WebSocket connection if no subscribers are left
                     if (subscriberCount.get(cacheKey) <= 0) {
