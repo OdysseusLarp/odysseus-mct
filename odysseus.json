@@ -3948,14 +3948,14 @@
                             "background-color": "#ed1c24",
                             "border-color": "rgba(0,0,0,0)"
                         },
-                        "description": "when missilesystem health's missilesystem health  < 20  ",
+                        "description": "when missilesystem health's missilesystem health  < 25  ",
                         "conditions": [
                             {
                                 "object": "odysseus.taxonomy:prop.health.missilesystem",
                                 "key": "missilesystemHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
