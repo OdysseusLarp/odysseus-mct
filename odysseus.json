@@ -2234,7 +2234,7 @@
                                 "key": "reactorHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -2347,7 +2347,7 @@
                                 "key": "impulseHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -2460,7 +2460,7 @@
                                 "key": "maneuverHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -2573,7 +2573,7 @@
                                 "key": "frontshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -2686,7 +2686,7 @@
                                 "key": "rearshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -2799,7 +2799,7 @@
                                 "key": "missilesystemHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -2912,7 +2912,7 @@
                                 "key": "beamweaponsHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3025,7 +3025,7 @@
                                 "key": "lifesupportHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3138,7 +3138,7 @@
                                 "key": "hullHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3318,7 +3318,7 @@
                                 "key": "reactorHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3345,7 +3345,7 @@
                                 "key": "reactorHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -3440,7 +3440,7 @@
                                 "key": "impulseHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3467,7 +3467,7 @@
                                 "key": "impulseHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -3562,7 +3562,7 @@
                                 "key": "maneuverHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3589,7 +3589,7 @@
                                 "key": "maneuverHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -3684,7 +3684,7 @@
                                 "key": "frontshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3711,7 +3711,7 @@
                                 "key": "frontshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -3806,7 +3806,7 @@
                                 "key": "rearshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -3833,7 +3833,7 @@
                                 "key": "rearshieldHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -3928,7 +3928,7 @@
                                 "key": "missilesystemHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -4050,7 +4050,7 @@
                                 "key": "beamweaponsHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -4077,7 +4077,7 @@
                                 "key": "beamweaponsHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -4191,7 +4191,7 @@
                                 "key": "lifesupportHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
@@ -4278,7 +4278,7 @@
                                 "key": "hullHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    90
+                                    70
                                 ]
                             }
                         ],
@@ -4305,7 +4305,7 @@
                                 "key": "hullHealth",
                                 "operation": "lessThan",
                                 "values": [
-                                    20
+                                    25
                                 ]
                             }
                         ],
