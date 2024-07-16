@@ -4,6 +4,13 @@ Odysseus engineering UI is based on [Open MCT](https://github.com/nasa/openmct).
 
 This repository is based on the [Open MCT tutorial](https://github.com/nasa/openmct-tutorial).
 
+## Screenshots
+![Screenshot 2024-07-16 at 09-31-39 Jump drive state](https://github.com/user-attachments/assets/44cb077b-911d-4e21-9fbb-dbc7bdf368b8)
+
+![Screenshot 2024-07-16 at 09-32-14 Ship status](https://github.com/user-attachments/assets/314dc79a-a73b-4ff0-a8be-3f04d3d84f1b)
+
+![Screenshot 2024-07-16 at 09-31-25 Ship faults](https://github.com/user-attachments/assets/d78022a1-b3e6-4173-a278-d2a08f46176b)
+
 ## Documentations
 
 * [Odysseus software system description](https://github.com/OdysseusLarp/odysseus-backend/blob/master/docs/system-description.md)
